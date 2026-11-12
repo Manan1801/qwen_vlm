@@ -1,0 +1,299 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_dissassemble_top_0_8",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:04.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a small mechanical model made of colorful plastic parts on a dark surface. They use both hands to manipulate the components, occasionally removing or reattaching pieces. A smartphone and loose gears are visible nearby. The lighting improves from very dim to bright, revealing more detail of the workspace and the person's actions.\",\n    \"action_matches\": [\n        {\n            \"action\": \"adjusting mechanical model\",\n            \"score\": 95,\n            \"keywords\": [\"hands\", \"model\", \"manipulating\", \"assembling\"],\n            \"evidence\": \"The person's hands are continuously interacting with the colorful plastic model, rotating and fitting parts together.\",\n            \"frame_indices\": [1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"removing green gear\",\n            \"score\": 90,\n            \"keywords\": [\"green\", \"gear\", \"detaching\", \"separating\"],\n            \"evidence\": \"In frame 4, the person detaches a green gear from the model and places it on the table.\",\n            \"frame_indices\": [4]\n        },\n        {\n            \"action\": \"repositioning phone\",\n            \"score\": 85,\n            \"keywords\": [\"phone\", \"moving\", \"relocating\", \"touching\"],\n            \"evidence\": \"In frame 6, the person briefly picks up the smartphone and moves it slightly away from the model.\",\n            \"frame_indices\": [6]\n        },\n        {\n            \"action\": \"reattaching green gear\",\n            \"score\": 80,\n            \"keywords\": [\"green\", \"gear\", \"reconnecting\", \"inserting\"],\n            \"evidence\": \"In frame 7, the person brings the green gear back towards the model and attempts to reattach it.\",\n            \"frame_indices\": [7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a small mechanical model made of colorful plastic parts on a dark surface. They use both hands to manipulate the components, occasionally removing or reattaching pieces. A smartphone and loose gears are visible nearby. The lighting improves from very dim to bright, revealing more detail of the workspace and the person's actions.",
+        "action_matches": [
+          {
+            "action": "adjusting mechanical model",
+            "score": 95,
+            "keywords": [
+              "hands",
+              "model",
+              "manipulating",
+              "assembling"
+            ],
+            "evidence": "The person's hands are continuously interacting with the colorful plastic model, rotating and fitting parts together.",
+            "timestamps": [
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "removing green gear",
+            "score": 90,
+            "keywords": [
+              "green",
+              "gear",
+              "detaching",
+              "separating"
+            ],
+            "evidence": "In frame 4, the person detaches a green gear from the model and places it on the table.",
+            "timestamps": [
+              "00:02.00"
+            ]
+          },
+          {
+            "action": "repositioning phone",
+            "score": 85,
+            "keywords": [
+              "phone",
+              "moving",
+              "relocating",
+              "touching"
+            ],
+            "evidence": "In frame 6, the person briefly picks up the smartphone and moves it slightly away from the model.",
+            "timestamps": [
+              "00:03.00"
+            ]
+          },
+          {
+            "action": "reattaching green gear",
+            "score": 80,
+            "keywords": [
+              "green",
+              "gear",
+              "reconnecting",
+              "inserting"
+            ],
+            "evidence": "In frame 7, the person brings the green gear back towards the model and attempts to reattach it.",
+            "timestamps": [
+              "00:03.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:04.00",
+      "end_time": "00:07.60",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical model on a black surface, methodically connecting various colored plastic gears and components. They handle each piece with care, adjusting and fitting parts together to construct a functional gear system. The process involves picking up, positioning, and interlocking components to form a coherent mechanical structure.\",\n    \"action_matches\": [\n        {\n            \"action\": \"placing red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"placing\", \"black surface\"],\n            \"evidence\": \"The person places a red gear onto the black surface, positioning it near other components.\",\n            \"frame_indices\": [1]\n        },\n        {\n            \"action\": \"handling yellow gear\",\n            \"score\": 90,\n            \"keywords\": [\"yellow gear\", \"handling\", \"assembly\"],\n            \"evidence\": \"The person picks up and manipulates a small yellow gear, preparing to integrate it into the assembly.\",\n            \"frame_indices\": [2, 3]\n        },\n        {\n            \"action\": \"attaching green gear\",\n            \"score\": 85,\n            \"keywords\": [\"green gear\", \"attaching\", \"mechanical assembly\"],\n            \"evidence\": \"The person carefully attaches a green gear to a central white component, aligning it for proper function.\",\n            \"frame_indices\": [5, 6]\n        },\n        {\n            \"action\": \"connecting white base\",\n            \"score\": 80,\n            \"keywords\": [\"white base\", \"connecting\", \"assembly\"],\n            \"evidence\": \"The person connects a white base component to the green gear, forming a stable foundation for the mechanism.\",\n            \"frame_indices\": [4, 5]\n        },\n        {\n            \"action\": \"adjusting gear alignment\",\n            \"score\": 85,\n            \"keywords\": [\"gear alignment\", \"adjusting\", \"precision\"],\n            \"evidence\": \"The person makes fine adjustments to the position of the green gear relative to the white base to ensure correct meshing.\",\n            \"frame_indices\": [6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical model on a black surface, methodically connecting various colored plastic gears and components. They handle each piece with care, adjusting and fitting parts together to construct a functional gear system. The process involves picking up, positioning, and interlocking components to form a coherent mechanical structure.",
+        "action_matches": [
+          {
+            "action": "placing red gear",
+            "score": 95,
+            "keywords": [
+              "red gear",
+              "placing",
+              "black surface"
+            ],
+            "evidence": "The person places a red gear onto the black surface, positioning it near other components.",
+            "timestamps": [
+              "00:04.50"
+            ]
+          },
+          {
+            "action": "handling yellow gear",
+            "score": 90,
+            "keywords": [
+              "yellow gear",
+              "handling",
+              "assembly"
+            ],
+            "evidence": "The person picks up and manipulates a small yellow gear, preparing to integrate it into the assembly.",
+            "timestamps": [
+              "00:05.00",
+              "00:05.50"
+            ]
+          },
+          {
+            "action": "attaching green gear",
+            "score": 85,
+            "keywords": [
+              "green gear",
+              "attaching",
+              "mechanical assembly"
+            ],
+            "evidence": "The person carefully attaches a green gear to a central white component, aligning it for proper function.",
+            "timestamps": [
+              "00:06.50",
+              "00:07.00"
+            ]
+          },
+          {
+            "action": "connecting white base",
+            "score": 80,
+            "keywords": [
+              "white base",
+              "connecting",
+              "assembly"
+            ],
+            "evidence": "The person connects a white base component to the green gear, forming a stable foundation for the mechanism.",
+            "timestamps": [
+              "00:06.00",
+              "00:06.50"
+            ]
+          },
+          {
+            "action": "adjusting gear alignment",
+            "score": 85,
+            "keywords": [
+              "gear alignment",
+              "adjusting",
+              "precision"
+            ],
+            "evidence": "The person makes fine adjustments to the position of the green gear relative to the white base to ensure correct meshing.",
+            "timestamps": [
+              "00:07.00",
+              "00:07.50"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a colorful mechanical model on a dark surface, beginning with adjusting and reattaching components, including a green gear that is temporarily removed and then reconnected. As lighting improves, the workspace becomes clearer, revealing the careful integration of various plastic gears. The person places a red gear, handles a yellow gear, and attaches the green gear to a central white component, connecting it to a white base to form a stable foundation. Final adjustments are made to ensure precise gear alignment, indicating a deliberate effort to construct a functional mechanical system. Throughout, the person’s hands are constantly engaged, demonstrating focused, step-by-step assembly with attention to detail.\",\n    \"action_matches\": [\n        {\n            \"action\": \"adjusting mechanical model\",\n            \"score\": 95,\n            \"keywords\": [\"hands\", \"model\", \"manipulating\", \"assembling\"],\n            \"evidence\": \"The person's hands are continuously interacting with the colorful plastic model, rotating and fitting parts together.\",\n            \"timestamps\": [\"00:00.50\", \"00:01.00\", \"00:01.50\", \"00:02.00\", \"00:02.50\", \"00:03.00\", \"00:03.50\"]\n        },\n        {\n            \"action\": \"removing green gear\",\n            \"score\": 90,\n            \"keywords\": [\"green\", \"gear\", \"detaching\", \"separating\"],\n            \"evidence\": \"In frame 4, the person detaches a green gear from the model and places it on the table.\",\n            \"timestamps\": [\"00:02.00\"]\n        },\n        {\n            \"action\": \"repositioning phone\",\n            \"score\": 85,\n            \"keywords\": [\"phone\", \"moving\", \"relocating\", \"touching\"],\n            \"evidence\": \"In frame 6, the person briefly picks up the smartphone and moves it slightly away from the model.\",\n            \"timestamps\": [\"00:03.00\"]\n        },\n        {\n            \"action\": \"reattaching green gear\",\n            \"score\": 80,\n            \"keywords\": [\"green\", \"gear\", \"reconnecting\", \"inserting\"],\n            \"evidence\": \"In frame 7, the person brings the green gear back towards the model and attempts to reattach it.\",\n            \"timestamps\": [\"00:03.50\"]\n        },\n        {\n            \"action\": \"placing red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"placing\", \"black surface\"],\n            \"evidence\": \"The person places a red gear onto the black surface, positioning it near other components.\",\n            \"timestamps\": [\"00:04.50\"]\n        },\n        {\n            \"action\": \"handling yellow gear\",\n            \"score\": 90,\n            \"keywords\": [\"yellow gear\", \"handling\", \"assembly\"],\n            \"evidence\": \"The person picks up and manipulates a small yellow gear, preparing to integrate it into the assembly.\",\n            \"timestamps\": [\"00:05.00\", \"00:05.50\"]\n        },\n        {\n            \"action\": \"attaching green gear\",\n            \"score\": 85,\n            \"keywords\": [\"green gear\", \"attaching\", \"mechanical assembly\"],\n            \"evidence\": \"The person carefully attaches a green gear to a central white component, aligning it for proper function.\",\n            \"timestamps\": [\"00:06.50\", \"00:07.00\"]\n        },\n        {\n            \"action\": \"connecting white base\",\n            \"score\": 80,\n            \"keywords\": [\"white base\", \"connecting\", \"assembly\"],\n            \"evidence\": \"The person connects a white base component to the green gear, forming a stable foundation for the mechanism.\",\n            \"timestamps\": [\"00:06.00\", \"00:06.50\"]\n        },\n        {\n            \"action\": \"adjusting gear alignment\",\n            \"score\": 85,\n            \"keywords\": [\"gear alignment\", \"adjusting\", \"precision\"],\n            \"evidence\": \"The person makes fine adjustments to the position of the green gear relative to the white base to ensure correct meshing.\",\n            \"timestamps\": [\"00:07.00\", \"00:07.50\"]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a colorful mechanical model on a dark surface, beginning with adjusting and reattaching components, including a green gear that is temporarily removed and then reconnected. As lighting improves, the workspace becomes clearer, revealing the careful integration of various plastic gears. The person places a red gear, handles a yellow gear, and attaches the green gear to a central white component, connecting it to a white base to form a stable foundation. Final adjustments are made to ensure precise gear alignment, indicating a deliberate effort to construct a functional mechanical system. Throughout, the person’s hands are constantly engaged, demonstrating focused, step-by-step assembly with attention to detail.",
+      "action_matches": [
+        {
+          "action": "adjusting mechanical model",
+          "score": 95,
+          "keywords": [
+            "hands",
+            "model",
+            "manipulating",
+            "assembling"
+          ],
+          "evidence": "The person's hands are continuously interacting with the colorful plastic model, rotating and fitting parts together.",
+          "timestamps": [
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "removing green gear",
+          "score": 90,
+          "keywords": [
+            "green",
+            "gear",
+            "detaching",
+            "separating"
+          ],
+          "evidence": "In frame 4, the person detaches a green gear from the model and places it on the table.",
+          "timestamps": [
+            "00:02.00"
+          ]
+        },
+        {
+          "action": "repositioning phone",
+          "score": 85,
+          "keywords": [
+            "phone",
+            "moving",
+            "relocating",
+            "touching"
+          ],
+          "evidence": "In frame 6, the person briefly picks up the smartphone and moves it slightly away from the model.",
+          "timestamps": [
+            "00:03.00"
+          ]
+        },
+        {
+          "action": "reattaching green gear",
+          "score": 80,
+          "keywords": [
+            "green",
+            "gear",
+            "reconnecting",
+            "inserting"
+          ],
+          "evidence": "In frame 7, the person brings the green gear back towards the model and attempts to reattach it.",
+          "timestamps": [
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "placing red gear",
+          "score": 95,
+          "keywords": [
+            "red gear",
+            "placing",
+            "black surface"
+          ],
+          "evidence": "The person places a red gear onto the black surface, positioning it near other components.",
+          "timestamps": [
+            "00:04.50"
+          ]
+        },
+        {
+          "action": "handling yellow gear",
+          "score": 90,
+          "keywords": [
+            "yellow gear",
+            "handling",
+            "assembly"
+          ],
+          "evidence": "The person picks up and manipulates a small yellow gear, preparing to integrate it into the assembly.",
+          "timestamps": [
+            "00:05.00",
+            "00:05.50"
+          ]
+        },
+        {
+          "action": "attaching green gear",
+          "score": 85,
+          "keywords": [
+            "green gear",
+            "attaching",
+            "mechanical assembly"
+          ],
+          "evidence": "The person carefully attaches a green gear to a central white component, aligning it for proper function.",
+          "timestamps": [
+            "00:06.50",
+            "00:07.00"
+          ]
+        },
+        {
+          "action": "connecting white base",
+          "score": 80,
+          "keywords": [
+            "white base",
+            "connecting",
+            "assembly"
+          ],
+          "evidence": "The person connects a white base component to the green gear, forming a stable foundation for the mechanism.",
+          "timestamps": [
+            "00:06.00",
+            "00:06.50"
+          ]
+        },
+        {
+          "action": "adjusting gear alignment",
+          "score": 85,
+          "keywords": [
+            "gear alignment",
+            "adjusting",
+            "precision"
+          ],
+          "evidence": "The person makes fine adjustments to the position of the green gear relative to the white base to ensure correct meshing.",
+          "timestamps": [
+            "00:07.00",
+            "00:07.50"
+          ]
+        }
+      ]
+    }
+  }
+}

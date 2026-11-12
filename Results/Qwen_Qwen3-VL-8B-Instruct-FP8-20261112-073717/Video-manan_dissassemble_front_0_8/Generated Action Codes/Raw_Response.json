@@ -1,0 +1,350 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_dissassemble_front_0_8",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:04.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a small mechanical model from colorful plastic parts on a table. Initially obscured by darkness, the scene brightens to reveal the individual carefully connecting gears and structural pieces. They methodically attach components, including a prominent red gear, to build a functional-looking contraption, occasionally adjusting or repositioning parts as they work.\",\n    \"action_matches\": [\n        {\n            \"action\": \"assembling mechanical model\",\n            \"score\": 100,\n            \"keywords\": [\"assembling\", \"mechanical model\", \"plastic parts\", \"gears\", \"structural pieces\"],\n            \"evidence\": \"The person is consistently handling and connecting various colorful plastic components to build a small mechanical structure across all frames.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"connecting red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"connecting\", \"attaching\", \"gear assembly\"],\n            \"evidence\": \"The person picks up and attaches the red gear to the central structure in frames 6 and 7, indicating a key step in the assembly.\",\n            \"frame_indices\": [6, 7]\n        },\n        {\n            \"action\": \"repositioning green gear\",\n            \"score\": 90,\n            \"keywords\": [\"green gear\", \"repositioning\", \"adjusting\", \"gear placement\"],\n            \"evidence\": \"In frame 5, the green gear is moved from its initial position to a new location on the table, suggesting an adjustment or repositioning step.\",\n            \"frame_indices\": [5]\n        },\n        {\n            \"action\": \"holding and examining part\",\n            \"score\": 85,\n            \"keywords\": [\"holding\", \"examining\", \"part\", \"inspection\"],\n            \"evidence\": \"In frame 7, the person holds the red gear up for closer inspection before attaching it, indicating a moment of examination.\",\n            \"frame_indices\": [7]\n        },\n        {\n            \"action\": \"placing part on table\",\n            \"score\": 80,\n            \"keywords\": [\"placing\", \"part\", \"table\", \"disassembly\"],\n            \"evidence\": \"In frame 5, a small orange part is placed on the table, suggesting it was either",
+      "parsed_response": {
+        "descriptor": "A person is assembling a small mechanical model from colorful plastic parts on a table. Initially obscured by darkness, the scene brightens to reveal the individual carefully connecting gears and structural pieces. They methodically attach components, including a prominent red gear, to build a functional-looking contraption, occasionally adjusting or repositioning parts as they work.",
+        "action_matches": [
+          {
+            "action": "assembling mechanical model",
+            "score": 100,
+            "keywords": [
+              "assembling",
+              "mechanical model",
+              "plastic parts",
+              "gears",
+              "structural pieces"
+            ],
+            "evidence": "The person is consistently handling and connecting various colorful plastic components to build a small mechanical structure across all frames.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "connecting red gear",
+            "score": 95,
+            "keywords": [
+              "red gear",
+              "connecting",
+              "attaching",
+              "gear assembly"
+            ],
+            "evidence": "The person picks up and attaches the red gear to the central structure in frames 6 and 7, indicating a key step in the assembly.",
+            "timestamps": [
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "repositioning green gear",
+            "score": 90,
+            "keywords": [
+              "green gear",
+              "repositioning",
+              "adjusting",
+              "gear placement"
+            ],
+            "evidence": "In frame 5, the green gear is moved from its initial position to a new location on the table, suggesting an adjustment or repositioning step.",
+            "timestamps": [
+              "00:02.50"
+            ]
+          },
+          {
+            "action": "holding and examining part",
+            "score": 85,
+            "keywords": [
+              "holding",
+              "examining",
+              "part",
+              "inspection"
+            ],
+            "evidence": "In frame 7, the person holds the red gear up for closer inspection before attaching it, indicating a moment of examination.",
+            "timestamps": [
+              "00:03.50"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:04.00",
+      "end_time": "00:07.60",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical toy or puzzle on a table. They begin by holding a red circular piece, then place it down and proceed to connect various small components, including gears and a green figurine, into a white central structure. Their hands move methodically, fitting parts together to construct the device.\",\n    \"action_matches\": [\n        {\n            \"action\": \"placing red circular piece\",\n            \"score\": 95,\n            \"keywords\": [\"red\", \"circular\", \"piece\", \"down\"],\n            \"evidence\": \"The person lowers the red circular piece onto the table in front of them, initiating the assembly.\",\n            \"frame_indices\": [1]\n        },\n        {\n            \"action\": \"removing yellow gear\",\n            \"score\": 90,\n            \"keywords\": [\"yellow\", \"gear\", \"removing\", \"hand\"],\n            \"evidence\": \"The person uses their right hand to lift and remove a yellow gear from the white structure.\",\n            \"frame_indices\": [2]\n        },\n        {\n            \"action\": \"inserting gray gear\",\n            \"score\": 85,\n            \"keywords\": [\"gray\", \"gear\", \"inserting\", \"white\"],\n            \"evidence\": \"The person carefully places a gray gear into a slot on the white central structure.\",\n            \"frame_indices\": [3]\n        },\n        {\n            \"action\": \"connecting green figurine\",\n            \"score\": 80,\n            \"keywords\": [\"green\", \"figurine\", \"connecting\", \"white\"],\n            \"evidence\": \"The person adjusts the green figurine, positioning it within the white structure to connect with other parts.\",\n            \"frame_indices\": [4, 5, 6]\n        },\n        {\n            \"action\": \"adjusting red base\",\n            \"score\": 75,\n            \"keywords\": [\"red\", \"base\", \"adjusting\", \"position\"],\n            \"evidence\": \"The person repositions the red circular base slightly to better align with the assembled components.\",\n            \"frame_indices\": [7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical toy or puzzle on a table. They begin by holding a red circular piece, then place it down and proceed to connect various small components, including gears and a green figurine, into a white central structure. Their hands move methodically, fitting parts together to construct the device.",
+        "action_matches": [
+          {
+            "action": "placing red circular piece",
+            "score": 95,
+            "keywords": [
+              "red",
+              "circular",
+              "piece",
+              "down"
+            ],
+            "evidence": "The person lowers the red circular piece onto the table in front of them, initiating the assembly.",
+            "timestamps": [
+              "00:04.50"
+            ]
+          },
+          {
+            "action": "removing yellow gear",
+            "score": 90,
+            "keywords": [
+              "yellow",
+              "gear",
+              "removing",
+              "hand"
+            ],
+            "evidence": "The person uses their right hand to lift and remove a yellow gear from the white structure.",
+            "timestamps": [
+              "00:05.00"
+            ]
+          },
+          {
+            "action": "inserting gray gear",
+            "score": 85,
+            "keywords": [
+              "gray",
+              "gear",
+              "inserting",
+              "white"
+            ],
+            "evidence": "The person carefully places a gray gear into a slot on the white central structure.",
+            "timestamps": [
+              "00:05.50"
+            ]
+          },
+          {
+            "action": "connecting green figurine",
+            "score": 80,
+            "keywords": [
+              "green",
+              "figurine",
+              "connecting",
+              "white"
+            ],
+            "evidence": "The person adjusts the green figurine, positioning it within the white structure to connect with other parts.",
+            "timestamps": [
+              "00:06.00",
+              "00:06.50",
+              "00:07.00"
+            ]
+          },
+          {
+            "action": "adjusting red base",
+            "score": 75,
+            "keywords": [
+              "red",
+              "base",
+              "adjusting",
+              "position"
+            ],
+            "evidence": "The person repositions the red circular base slightly to better align with the assembled components.",
+            "timestamps": [
+              "00:07.50"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a colorful mechanical model on a table, beginning in dim light that brightens as they work. They connect various plastic components, including a prominent red gear and a green gear, adjusting positions as needed. The assembly progresses with the placement of a red circular base, removal of a yellow gear, insertion of a gray gear, and integration of a green figurine into a central white structure. Throughout, the person frequently examines parts before attaching them, ensuring precise alignment. The sequence reflects a focused, step-by-step construction of a functional-looking mechanical toy or puzzle, with hands moving deliberately to fit each piece into place.\",\n    \"action_matches\": [\n        {\n            \"action\": \"assembling mechanical model\",\n            \"score\": 100,\n            \"keywords\": [\"assembling\", \"mechanical model\", \"plastic parts\", \"gears\", \"structural pieces\", \"connecting\", \"attaching\", \"adjusting\", \"repositioning\", \"examining\", \"inspection\", \"fitting\", \"constructing\", \"building\"],\n            \"evidence\": \"The person consistently handles and connects various colorful plastic components to build a small mechanical structure across all frames, including attaching gears, repositioning parts, and examining components before placement.\",\n            \"timestamps\": [\n                \"00:00.00\",\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:04.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\"\n            ]\n        },\n        {\n            \"action\": \"connecting red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"connecting\", \"attaching\", \"gear assembly\", \"examining\", \"inspection\", \"placing\", \"aligning\"],\n            \"evidence\": \"The person picks up and attaches the red gear to the central structure, holding it up for inspection before final placement, and later adjusts the red base to align with the assembly.\",\n            \"timestamps\": [\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:07.50\"\n            ]\n        },\n        {\n            \"action\": \"repositioning green gear\",\n            \"score\": 90,\n            \"keywords\": [\"green gear\", \"repositioning\", \"adjusting\", \"gear placement\", \"moving\", \"shifting\"],\n            \"evidence\": \"The green gear is moved from its initial position to a new location on the table during assembly, indicating an adjustment step.\",\n            \"timestamps\": [\n                \"00:02.50\"\n            ]\n        },\n        {\n            \"action\": \"placing red circular piece\",\n            \"score\": 95,\n            \"keywords\": [\"red\", \"circular\", \"piece\", \"down\", \"base\", \"placing\", \"initial placement\"],\n            \"evidence\": \"The person lowers the red circular piece onto the table, initiating the assembly phase.\",\n            \"timestamps\": [\n                \"00:04.50\"\n            ]\n        },\n        {\n            \"action\": \"removing yellow gear\",\n            \"score\": 90,\n            \"keywords\": [\"yellow\", \"gear\", \"removing\", \"hand\", \"extracting\", \"disengaging\"],\n            \"evidence\": \"The person uses their right hand to lift and remove a yellow gear from the white structure.\",\n            \"timestamps\": [\n                \"00:05.00\"\n            ]\n        },\n        {\n            \"action\": \"inserting gray gear\",\n            \"score\": 85,\n            \"keywords\": [\"gray\", \"gear\", \"inserting\", \"white\", \"slot\", \"fitting\", \"connecting\"],\n            \"evidence\": \"The person carefully places a gray gear into a slot on the white central structure.\",\n            \"timestamps\": [\n                \"00:05.50\"\n            ]\n        },\n        {\n            \"action\": \"connecting green figurine\",\n            \"score\": 80,\n            \"keywords\": [\"green\", \"figurine\", \"connecting\", \"white\", \"adjusting\", \"positioning\", \"integrating\"],\n            \"evidence\": \"The person adjusts the green figurine, positioning it within the white structure to connect with other parts.\",\n            \"timestamps\": [\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\"\n            ]\n        },\n        {\n            \"action\": \"adjusting red base\",\n            \"score\": 75,\n            \"keywords\": [\"red\", \"base\", \"adjusting\", \"position\", \"aligning\", \"repositioning\"],\n            \"evidence\": \"The person repositions the red circular base slightly to better align with the assembled components.\",\n            \"timestamps\": [\n                \"00:07.50\"\n            ]\n        },\n        {\n            \"action\": \"holding and examining part\",\n            \"score\": 85,\n            \"keywords\": [\"holding\", \"examining\", \"part\", \"inspection\", \"checking\", \"pre-attachment\"],\n            \"evidence\": \"In frame 7, the person holds the red gear up for closer inspection before attaching it, indicating a moment of examination.\",\n            \"timestamps\": [\n                \"00:03.50\"\n            ]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a colorful mechanical model on a table, beginning in dim light that brightens as they work. They connect various plastic components, including a prominent red gear and a green gear, adjusting positions as needed. The assembly progresses with the placement of a red circular base, removal of a yellow gear, insertion of a gray gear, and integration of a green figurine into a central white structure. Throughout, the person frequently examines parts before attaching them, ensuring precise alignment. The sequence reflects a focused, step-by-step construction of a functional-looking mechanical toy or puzzle, with hands moving deliberately to fit each piece into place.",
+      "action_matches": [
+        {
+          "action": "assembling mechanical model",
+          "score": 100,
+          "keywords": [
+            "assembling",
+            "mechanical model",
+            "plastic parts",
+            "gears",
+            "structural pieces",
+            "connecting",
+            "attaching",
+            "adjusting",
+            "repositioning",
+            "examining",
+            "inspection",
+            "fitting",
+            "constructing",
+            "building"
+          ],
+          "evidence": "The person consistently handles and connects various colorful plastic components to build a small mechanical structure across all frames, including attaching gears, repositioning parts, and examining components before placement.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "connecting red gear",
+          "score": 95,
+          "keywords": [
+            "red gear",
+            "connecting",
+            "attaching",
+            "gear assembly",
+            "examining",
+            "inspection",
+            "placing",
+            "aligning"
+          ],
+          "evidence": "The person picks up and attaches the red gear to the central structure, holding it up for inspection before final placement, and later adjusts the red base to align with the assembly.",
+          "timestamps": [
+            "00:03.00",
+            "00:03.50",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "repositioning green gear",
+          "score": 90,
+          "keywords": [
+            "green gear",
+            "repositioning",
+            "adjusting",
+            "gear placement",
+            "moving",
+            "shifting"
+          ],
+          "evidence": "The green gear is moved from its initial position to a new location on the table during assembly, indicating an adjustment step.",
+          "timestamps": [
+            "00:02.50"
+          ]
+        },
+        {
+          "action": "placing red circular piece",
+          "score": 95,
+          "keywords": [
+            "red",
+            "circular",
+            "piece",
+            "down",
+            "base",
+            "placing",
+            "initial placement"
+          ],
+          "evidence": "The person lowers the red circular piece onto the table, initiating the assembly phase.",
+          "timestamps": [
+            "00:04.50"
+          ]
+        },
+        {
+          "action": "removing yellow gear",
+          "score": 90,
+          "keywords": [
+            "yellow",
+            "gear",
+            "removing",
+            "hand",
+            "extracting",
+            "disengaging"
+          ],
+          "evidence": "The person uses their right hand to lift and remove a yellow gear from the white structure.",
+          "timestamps": [
+            "00:05.00"
+          ]
+        },
+        {
+          "action": "inserting gray gear",
+          "score": 85,
+          "keywords": [
+            "gray",
+            "gear",
+            "inserting",
+            "white",
+            "slot",
+            "fitting",
+            "connecting"
+          ],
+          "evidence": "The person carefully places a gray gear into a slot on the white central structure.",
+          "timestamps": [
+            "00:05.50"
+          ]
+        },
+        {
+          "action": "connecting green figurine",
+          "score": 80,
+          "keywords": [
+            "green",
+            "figurine",
+            "connecting",
+            "white",
+            "adjusting",
+            "positioning",
+            "integrating"
+          ],
+          "evidence": "The person adjusts the green figurine, positioning it within the white structure to connect with other parts.",
+          "timestamps": [
+            "00:06.00",
+            "00:06.50",
+            "00:07.00"
+          ]
+        },
+        {
+          "action": "adjusting red base",
+          "score": 75,
+          "keywords": [
+            "red",
+            "base",
+            "adjusting",
+            "position",
+            "aligning",
+            "repositioning"
+          ],
+          "evidence": "The person repositions the red circular base slightly to better align with the assembled components.",
+          "timestamps": [
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "holding and examining part",
+          "score": 85,
+          "keywords": [
+            "holding",
+            "examining",
+            "part",
+            "inspection",
+            "checking",
+            "pre-attachment"
+          ],
+          "evidence": "In frame 7, the person holds the red gear up for closer inspection before attaching it, indicating a moment of examination.",
+          "timestamps": [
+            "00:03.50"
+          ]
+        }
+      ]
+    }
+  }
+}

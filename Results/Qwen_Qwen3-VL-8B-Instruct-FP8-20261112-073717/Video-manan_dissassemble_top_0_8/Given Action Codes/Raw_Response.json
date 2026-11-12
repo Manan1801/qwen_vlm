@@ -1,0 +1,646 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_dissassemble_top_0_8",
+  "mode": "fixed",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:04.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a small mechanical model, likely made of LEGO or similar blocks, on a dark surface. They manipulate various colored pieces, including gears and axles, attempting to fit them together. The person occasionally removes parts and repositions them, suggesting troubleshooting or construction. A smartphone and other components are visible nearby.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling\",\n            \"score\": 80,\n            \"keywords\": [\"removing parts\", \"taking apart\", \"adjusting\"],\n            \"evidence\": \"The person repeatedly removes small green and yellow pieces from the main structure and repositions them, indicating disassembly or adjustment rather than final assembly.\",\n            \"frame_indices\": [3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 70,\n            \"keywords\": [\"repositioning\", \"adjusting\", \"fitting\"],\n            \"evidence\": \"The person rotates and repositions the main red and grey structure and its components, trying to align them properly.\",\n            \"frame_indices\": [1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 60,\n            \"keywords\": [\"turning gears\", \"testing movement\"],\n            \"evidence\": \"The person manipulates the assembled structure, suggesting they are testing if the gears mesh or move correctly.\",\n            \"frame_indices\": [1, 2, 3, 4, 5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a small mechanical model, likely made of LEGO or similar blocks, on a dark surface. They manipulate various colored pieces, including gears and axles, attempting to fit them together. The person occasionally removes parts and repositions them, suggesting troubleshooting or construction. A smartphone and other components are visible nearby.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 80,
+            "keywords": [
+              "removing parts",
+              "taking apart",
+              "adjusting"
+            ],
+            "evidence": "The person repeatedly removes small green and yellow pieces from the main structure and repositions them, indicating disassembly or adjustment rather than final assembly.",
+            "timestamps": [
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 70,
+            "keywords": [
+              "repositioning",
+              "adjusting",
+              "fitting"
+            ],
+            "evidence": "The person rotates and repositions the main red and grey structure and its components, trying to align them properly.",
+            "timestamps": [
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 60,
+            "keywords": [
+              "turning gears",
+              "testing movement"
+            ],
+            "evidence": "The person manipulates the assembled structure, suggesting they are testing if the gears mesh or move correctly.",
+            "timestamps": [
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:04.00",
+      "end_time": "00:07.60",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a mechanical gear system on a black surface. They manipulate various colored gears and components, including a red gear, green gears, and a central white assembly. The person's hands are actively positioning and connecting parts, suggesting an assembly or testing process involving gear interaction.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling\",\n            \"score\": 50,\n            \"keywords\": [],\n            \"evidence\": \"The person is actively removing and separating components, such as the red gear and the central white assembly, indicating disassembly or reconfiguration.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 75,\n            \"keywords\": [],\n            \"evidence\": \"The person is manipulating gears and the central assembly, likely to test their interaction or fit, as seen by the hand movements and gear positioning.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"rotating\",\n            \"score\": 75,\n            \"keywords\": [],\n            \"evidence\": \"The person is actively rotating and positioning gears and components, suggesting testing or adjustment of their orientation and interaction.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a mechanical gear system on a black surface. They manipulate various colored gears and components, including a red gear, green gears, and a central white assembly. The person's hands are actively positioning and connecting parts, suggesting an assembly or testing process involving gear interaction.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 50,
+            "keywords": [],
+            "evidence": "The person is actively removing and separating components, such as the red gear and the central white assembly, indicating disassembly or reconfiguration.",
+            "timestamps": [
+              "00:04.00",
+              "00:04.50",
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 75,
+            "keywords": [],
+            "evidence": "The person is manipulating gears and the central assembly, likely to test their interaction or fit, as seen by the hand movements and gear positioning.",
+            "timestamps": [
+              "00:04.00",
+              "00:04.50",
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 75,
+            "keywords": [],
+            "evidence": "The person is actively rotating and positioning gears and components, suggesting testing or adjustment of their orientation and interaction.",
+            "timestamps": [
+              "00:04.00",
+              "00:04.50",
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person is methodically assembling and troubleshooting a small mechanical model, likely built from LEGO or similar blocks, on a dark surface. Throughout the video, they repeatedly disassemble and reorient components—particularly gears, axles, and colored plates—to achieve proper alignment and functionality. Their hands are constantly manipulating parts, testing gear interactions by turning them, and rotating components to ensure correct orientation. The process suggests iterative problem-solving, as they remove, adjust, and reposition pieces to make the mechanical system work. A smartphone and other tools are visible nearby, indicating a focused, possibly educational or hobbyist, construction session. The person’s actions are deliberate and hands-on, emphasizing trial and error in mechanical assembly.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling\",\n            \"score\": 80,\n            \"keywords\": [\n                \"removing parts\",\n                \"taking apart\",\n                \"adjusting\"\n            ],\n            \"evidence\": \"The person repeatedly removes small green and yellow pieces from the main structure and repositions them, indicating disassembly or adjustment rather than final assembly.\",\n            \"timestamps\": [\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:04.00\",\n                \"00:04.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\"\n            ]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 70,\n            \"keywords\": [\n                \"repositioning\",\n                \"adjusting\",\n                \"fitting\"\n            ],\n            \"evidence\": \"The person rotates and repositions the main red and grey structure and its components, trying to align them properly.\",\n            \"timestamps\": [\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:04.00\",\n                \"00:04.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\"\n            ]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 70,\n            \"keywords\": [\n                \"turning gears\",\n                \"testing movement\"\n            ],\n            \"evidence\": \"The person manipulates the assembled structure, suggesting they are testing if the gears mesh or move correctly.\",\n            \"timestamps\": [\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:04.00\",\n                \"00:04.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\"\n            ]\n        },\n        {\n            \"action\": \"rotating\",\n            \"score\": 75,\n            \"keywords\": [],\n            \"evidence\": \"The person is actively rotating and positioning gears and components, suggesting testing or adjustment of their orientation and interaction.\",\n            \"timestamps\": [\n                \"00:04.00\",\n                \"00:04.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\"\n            ]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person is methodically assembling and troubleshooting a small mechanical model, likely built from LEGO or similar blocks, on a dark surface. Throughout the video, they repeatedly disassemble and reorient components—particularly gears, axles, and colored plates—to achieve proper alignment and functionality. Their hands are constantly manipulating parts, testing gear interactions by turning them, and rotating components to ensure correct orientation. The process suggests iterative problem-solving, as they remove, adjust, and reposition pieces to make the mechanical system work. A smartphone and other tools are visible nearby, indicating a focused, possibly educational or hobbyist, construction session. The person’s actions are deliberate and hands-on, emphasizing trial and error in mechanical assembly.",
+      "action_matches": [
+        {
+          "action": "Meshing gears - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Meshing gears - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Stopper magnet - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Stopper magnet - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Axle and gear magnets - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Axle and gear magnets - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Grey plate and red gear - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Grey plate and red gear - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Look at the components - includes rotations, looking, search",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "mount - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "mount - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "pairing - correct combo",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "pairing - incorrect combo",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Orientation of the part - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Orientation of the part - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "disassembling",
+          "score": 80,
+          "keywords": [
+            "removing parts",
+            "taking apart",
+            "adjusting"
+          ],
+          "evidence": "The person repeatedly removes small green and yellow pieces from the main structure and repositions them, indicating disassembly or adjustment rather than final assembly.",
+          "timestamps": [
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:04.00",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "Correct pair & orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Incorrect pair & correct orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Correct pair & incorrect orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Incorrect pair & orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "orienting",
+          "score": 70,
+          "keywords": [
+            "repositioning",
+            "adjusting",
+            "fitting"
+          ],
+          "evidence": "The person rotates and repositions the main red and grey structure and its components, trying to align them properly.",
+          "timestamps": [
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:04.00",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "testing - includes turning gears",
+          "score": 70,
+          "keywords": [
+            "turning gears",
+            "testing movement"
+          ],
+          "evidence": "The person manipulates the assembled structure, suggesting they are testing if the gears mesh or move correctly.",
+          "timestamps": [
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:04.00",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "rotating",
+          "score": 75,
+          "keywords": [],
+          "evidence": "The person is actively rotating and positioning gears and components, suggesting testing or adjustment of their orientation and interaction.",
+          "timestamps": [
+            "00:04.00",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        }
+      ]
+    }
+  }
+}
