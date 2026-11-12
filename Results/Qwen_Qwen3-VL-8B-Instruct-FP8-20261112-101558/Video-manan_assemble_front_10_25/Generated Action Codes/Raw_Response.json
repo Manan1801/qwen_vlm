@@ -1,0 +1,480 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_assemble_front_10_25",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:06.40",
+      "raw_response": "{\n    \"descriptor\": \"A person assembles a mechanical gear model on a table, methodically connecting various colored plastic components including gears and axles. They carefully align and attach parts, focusing on the interaction between the gears, and eventually secure the final red gear onto the structure, completing the assembly process.\",\n    \"action_matches\": [\n        {\n            \"action\": \"connecting gears\",\n            \"score\": 95,\n            \"keywords\": [\"gears\", \"connecting\", \"assembly\"],\n            \"evidence\": \"The person repeatedly picks up and attaches different colored gears to a central white frame, demonstrating careful alignment and connection.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]\n        },\n        {\n            \"action\": \"attaching red gear\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"attaching\", \"final piece\"],\n            \"evidence\": \"The person picks up the large red gear and carefully places it onto the assembled structure, completing the model.\",\n            \"frame_indices\": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]\n        },\n        {\n            \"action\": \"adjusting gear position\",\n            \"score\": 85,\n            \"keywords\": [\"adjusting\", \"position\", \"alignment\"],\n            \"evidence\": \"The person frequently uses both hands to fine-tune the position of gears, ensuring they mesh correctly with adjacent components.\",\n            \"frame_indices\": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 2",
+      "parsed_response": {
+        "descriptor": "A person assembles a mechanical gear model on a table, methodically connecting various colored plastic components including gears and axles. They carefully align and attach parts, focusing on the interaction between the gears, and eventually secure the final red gear onto the structure, completing the assembly process.",
+        "action_matches": [
+          {
+            "action": "connecting gears",
+            "score": 95,
+            "keywords": [
+              "gears",
+              "connecting",
+              "assembly"
+            ],
+            "evidence": "The person repeatedly picks up and attaches different colored gears to a central white frame, demonstrating careful alignment and connection.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.20",
+              "00:00.40",
+              "00:00.60",
+              "00:00.80",
+              "00:01.00",
+              "00:01.20",
+              "00:01.40",
+              "00:01.60",
+              "00:01.80",
+              "00:02.00",
+              "00:02.20",
+              "00:02.40",
+              "00:02.60",
+              "00:02.80",
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00"
+            ]
+          },
+          {
+            "action": "attaching red gear",
+            "score": 90,
+            "keywords": [
+              "red gear",
+              "attaching",
+              "final piece"
+            ],
+            "evidence": "The person picks up the large red gear and carefully places it onto the assembled structure, completing the model.",
+            "timestamps": [
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:06.40",
+      "end_time": "00:12.80",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical gear model on a table. They carefully connect various colored gears and components, adjusting their positions and orientations to ensure proper alignment and functionality. The process involves handling multiple parts, including a large red gear, a yellow gear, and a green gear, to construct a working gear train.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disconnecting red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"disconnect\", \"hands\"],\n            \"evidence\": \"The person uses both hands to separate the red gear from the central assembly, revealing internal components.\",\n            \"frame_indices\": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]\n        },\n        {\n            \"action\": \"removing yellow gear\",\n            \"score\": 90,\n            \"keywords\": [\"yellow gear\", \"remove\", \"hand\"],\n            \"evidence\": \"The person uses their left hand to lift and remove the yellow gear from the white base structure.\",\n            \"frame_indices\": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]\n        },\n        {\n            \"action\": \"reconnecting red gear\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"reconnect\", \"hands\"],\n            \"evidence\": \"The person carefully aligns and reattaches the red gear to the central mechanism using both hands.\",\n            \"frame_indices\": [16, 17, 18, 19, 20, 21, 22,",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical gear model on a table. They carefully connect various colored gears and components, adjusting their positions and orientations to ensure proper alignment and functionality. The process involves handling multiple parts, including a large red gear, a yellow gear, and a green gear, to construct a working gear train.",
+        "action_matches": [
+          {
+            "action": "disconnecting red gear",
+            "score": 95,
+            "keywords": [
+              "red gear",
+              "disconnect",
+              "hands"
+            ],
+            "evidence": "The person uses both hands to separate the red gear from the central assembly, revealing internal components.",
+            "timestamps": [
+              "00:06.80",
+              "00:07.00",
+              "00:07.20",
+              "00:07.40",
+              "00:07.60",
+              "00:07.80",
+              "00:08.00",
+              "00:08.20",
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60",
+              "00:09.80",
+              "00:10.00",
+              "00:10.20",
+              "00:10.40",
+              "00:10.60",
+              "00:10.80",
+              "00:11.00",
+              "00:11.20",
+              "00:11.40",
+              "00:11.60",
+              "00:11.80",
+              "00:12.00",
+              "00:12.20",
+              "00:12.40",
+              "00:12.60"
+            ]
+          },
+          {
+            "action": "removing yellow gear",
+            "score": 90,
+            "keywords": [
+              "yellow gear",
+              "remove",
+              "hand"
+            ],
+            "evidence": "The person uses their left hand to lift and remove the yellow gear from the white base structure.",
+            "timestamps": [
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60",
+              "00:09.80",
+              "00:10.00",
+              "00:10.20",
+              "00:10.40",
+              "00:10.60",
+              "00:10.80",
+              "00:11.00",
+              "00:11.20",
+              "00:11.40",
+              "00:11.60",
+              "00:11.80",
+              "00:12.00",
+              "00:12.20",
+              "00:12.40",
+              "00:12.60"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    },
+    {
+      "chunk_number": 3,
+      "start_time": "00:12.80",
+      "end_time": "00:14.90",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a small mechanical model made of colorful plastic gears and connectors on a table. They carefully manipulate the components, particularly a red gear and a green gear, to fit them together. The person's focused expression and precise hand movements suggest they are constructing or troubleshooting the mechanism, possibly for educational or hobbyist purposes.\",\n    \"action_matches\": [\n        {\n            \"action\": \"adjusting red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"hands\", \"manipulating\", \"assembly\"],\n            \"evidence\": \"The person's hands are actively rotating and positioning the red gear, attempting to align it with other parts of the mechanism.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n        },\n        {\n            \"action\": \"removing gear from structure\",\n            \"score\": 90,\n            \"keywords\": [\"detaching\", \"gear\", \"disassembly\", \"hands\"],\n            \"evidence\": \"The person uses their fingers to carefully lift the red gear off the central white support structure, indicating a disassembly or adjustment step.\",\n            \"frame_indices\": [4, 5, 6, 7, 8, 9, 10]\n        },\n        {\n            \"action\": \"holding green gear\",\n            \"score\": 85,\n            \"keywords\": [\"green gear\", \"holding\", \"preparing\", \"hands\"],\n            \"evidence\": \"The person holds the green gear in their right hand, seemingly preparing to attach it or test its interaction with the red gear.\",\n            \"frame_indices\": [9, 10]\n        },\n        {\n            \"action\": \"examining gear assembly\",\n            \"score\": 80,\n            \"keywords\": [\"inspection\", \"close-up\", \"focusing\", \"hands\"],\n            \"evidence\": \"The person brings the red gear close to their face and examines it, suggesting a detailed inspection or troubleshooting step.\",\n            \"frame_indices\": [9, 10]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a small mechanical model made of colorful plastic gears and connectors on a table. They carefully manipulate the components, particularly a red gear and a green gear, to fit them together. The person's focused expression and precise hand movements suggest they are constructing or troubleshooting the mechanism, possibly for educational or hobbyist purposes.",
+        "action_matches": [
+          {
+            "action": "adjusting red gear",
+            "score": 95,
+            "keywords": [
+              "red gear",
+              "hands",
+              "manipulating",
+              "assembly"
+            ],
+            "evidence": "The person's hands are actively rotating and positioning the red gear, attempting to align it with other parts of the mechanism.",
+            "timestamps": [
+              "00:12.80",
+              "00:13.00",
+              "00:13.20",
+              "00:13.40",
+              "00:13.60",
+              "00:13.80",
+              "00:14.00",
+              "00:14.20",
+              "00:14.40",
+              "00:14.60",
+              "00:14.80"
+            ]
+          },
+          {
+            "action": "removing gear from structure",
+            "score": 90,
+            "keywords": [
+              "detaching",
+              "gear",
+              "disassembly",
+              "hands"
+            ],
+            "evidence": "The person uses their fingers to carefully lift the red gear off the central white support structure, indicating a disassembly or adjustment step.",
+            "timestamps": [
+              "00:13.60",
+              "00:13.80",
+              "00:14.00",
+              "00:14.20",
+              "00:14.40",
+              "00:14.60",
+              "00:14.80"
+            ]
+          },
+          {
+            "action": "holding green gear",
+            "score": 85,
+            "keywords": [
+              "green gear",
+              "holding",
+              "preparing",
+              "hands"
+            ],
+            "evidence": "The person holds the green gear in their right hand, seemingly preparing to attach it or test its interaction with the red gear.",
+            "timestamps": [
+              "00:14.60",
+              "00:14.80"
+            ]
+          },
+          {
+            "action": "examining gear assembly",
+            "score": 80,
+            "keywords": [
+              "inspection",
+              "close-up",
+              "focusing",
+              "hands"
+            ],
+            "evidence": "The person brings the red gear close to their face and examines it, suggesting a detailed inspection or troubleshooting step.",
+            "timestamps": [
+              "00:14.60",
+              "00:14.80"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a colorful mechanical gear model on a table, connecting various plastic gears and axles with precise hand movements. They secure the final red gear to complete the structure. Shortly after, they disassemble the model by disconnecting the red gear and removing the yellow gear, likely for adjustment or troubleshooting. In the final moments, they adjust the red gear again, detach it from the structure, hold a green gear in preparation, and closely examine the assembly, suggesting a focus on functionality or educational learning. The entire process reflects a deliberate, hands-on engagement with mechanical construction and fine-tuning.\",\n    \"action_matches\": [\n        {\n            \"action\": \"connecting gears\",\n            \"score\": 95,\n            \"keywords\": [\"gears\", \"connecting\", \"assembly\"],\n            \"evidence\": \"The person repeatedly picks up and attaches different colored gears to a central white frame, demonstrating careful alignment and connection.\",\n            \"timestamps\": [\n                \"00:00.00\",\n                \"00:00.20\",\n                \"00:00.40\",\n                \"00:00.60\",\n                \"00:00.80\",\n                \"00:01.00\",\n                \"00:01.20\",\n                \"00:01.40\",\n                \"00:01.60\",\n                \"00:01.80\",\n                \"00:02.00\",\n                \"00:02.20\",\n                \"00:02.40\",\n                \"00:02.60\",\n                \"00:02.80\",\n                \"00:03.00\",\n                \"00:03.20\",\n                \"00:03.40\",\n                \"00:03.60\",\n                \"00:03.80\",\n                \"00:04.00\",\n                \"00:04.20\",\n                \"00:04.40\",\n                \"00:04.60\",\n                \"00:04.80\",\n                \"00:05.00\",\n                \"00:05.20\",\n                \"00:05.40\",\n                \"00:05.60\",\n                \"00:05.80\",\n                \"00:06.00\"\n            ]\n        },\n        {\n            \"action\": \"attaching red gear\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"attaching\", \"final piece\"],\n            \"evidence\": \"The person picks up the large red gear and carefully places it onto the assembled structure, completing the model.\",\n            \"timestamps\": [\n                \"00:04.20\",\n                \"00:04.40\",\n                \"00:04.60\",\n                \"00:04.80\",\n                \"00:05.00\",\n                \"00:05.20\",\n                \"00:05.40\",\n                \"00:05.60\",\n                \"00:05.80\",\n                \"00:06.00\"\n            ]\n        },\n        {\n            \"action\": \"disconnecting red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"disconnect\", \"hands\"],\n            \"evidence\": \"The person uses both hands to separate the red gear from the central assembly, revealing internal components.\",\n            \"timestamps\": [\n                \"00:06.80\",\n                \"00:07.00\",\n                \"00:07.20\",\n                \"00:07.40\",\n                \"00:07.60\",\n                \"00:07.80\",\n                \"00:08.00\",\n                \"00:08.20\",\n                \"00:08.40\",\n                \"00:08.60\",\n                \"00:08.80\",\n                \"00:09.00\",\n                \"00:09.20\",\n                \"00:09.40\",\n                \"00:09.60\",\n                \"00:09.80\",\n                \"00:10.00\",\n                \"00:10.20\",\n                \"00:10.40\",\n                \"00:10.60\",\n                \"00:10.80\",\n                \"00:11.00\",\n                \"00:11.20\",\n                \"00:11.40\",\n                \"00:11.60\",\n                \"00:11.80\",\n                \"00:12.00\",\n                \"00:12.20\",\n                \"00:12.40\",\n                \"00:12.60\"\n            ]\n        },\n        {\n            \"action\": \"removing yellow gear\",\n            \"score\": 90,\n            \"keywords\": [\"yellow gear\", \"remove\", \"hand\"],\n            \"evidence\": \"The person uses their left hand to lift and remove the yellow gear from the white base structure.\",\n            \"timestamps\": [\n                \"00:08.40\",\n                \"00:08.60\",\n                \"00:08.80\",\n                \"00:09.00\",\n                \"00:09.20\",\n                \"00:09.40\",\n                \"00:09.60\",\n                \"00:09.80\",\n                \"00:10.00\",\n                \"00:10.20\",\n                \"00:10.40\",\n                \"00:10.60\",\n                \"00:10.80\",\n                \"00:11.00\",\n                \"00:11.20\",\n                \"00:11.40\",\n                \"00:11.60\",\n                \"00:11.80\",\n                \"00:12.00\",\n                \"00:12.20\",\n                \"00:12.40\",\n                \"00:12.60\"\n            ]\n        },\n        {\n            \"action\": \"adjusting red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"hands\", \"manipulating\", \"assembly\"],\n            \"evidence\": \"The person's hands are actively rotating and positioning the red gear, attempting to align it with other parts of the mechanism.\",\n            \"timestamps\": [\n                \"00:12.80\",\n                \"00:13.00\",\n                \"00:13.20\",\n                \"00:13.40\",\n                \"00:13.60\",\n                \"00:13.80\",\n                \"00:14.00\",\n                \"00:14.20\",\n                \"00:14.40\",\n                \"00:14.60\",\n                \"00:14.80\"\n            ]\n        },\n        {\n            \"action\": \"removing gear from structure\",\n            \"score\": 90,\n            \"keywords\": [\"detaching\", \"gear\", \"disassembly\", \"hands\"],\n            \"evidence\": \"The person uses their fingers to carefully lift the red gear off the central white support structure, indicating a disassembly or adjustment step.\",\n            \"timestamps\": [\n                \"00:13.60\",\n                \"00:13.80\",\n                \"00:14.00\",\n                \"00:14.20\",\n                \"00:14.40\",\n                \"00:14.60\",\n                \"00:14.80\"\n            ]\n        },\n        {\n            \"action\": \"holding green gear\",\n            \"score\": 85,\n            \"keywords\": [\"green gear\", \"holding\", \"preparing\", \"hands\"],\n            \"evidence\": \"The person holds the green gear in their right hand, seemingly preparing to attach it or test its interaction with the red gear.\",\n            \"timestamps\": [\n                \"00:14.60\",\n                \"00:14.80\"\n            ]\n        },\n        {\n            \"action\": \"examining gear assembly\",\n            \"score\": 80,\n            \"keywords\": [\"inspection\", \"close-up\", \"focusing\", \"hands\"],\n            \"evidence\": \"The person brings the red gear close to their face and examines it, suggesting a detailed inspection or troubleshooting step.\",\n            \"timestamps\": [\n                \"00:14.60\",\n                \"00:14.80\"\n            ]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a colorful mechanical gear model on a table, connecting various plastic gears and axles with precise hand movements. They secure the final red gear to complete the structure. Shortly after, they disassemble the model by disconnecting the red gear and removing the yellow gear, likely for adjustment or troubleshooting. In the final moments, they adjust the red gear again, detach it from the structure, hold a green gear in preparation, and closely examine the assembly, suggesting a focus on functionality or educational learning. The entire process reflects a deliberate, hands-on engagement with mechanical construction and fine-tuning.",
+      "action_matches": [
+        {
+          "action": "connecting gears",
+          "score": 95,
+          "keywords": [
+            "gears",
+            "connecting",
+            "assembly"
+          ],
+          "evidence": "The person repeatedly picks up and attaches different colored gears to a central white frame, demonstrating careful alignment and connection.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.20",
+            "00:00.40",
+            "00:00.60",
+            "00:00.80",
+            "00:01.00",
+            "00:01.20",
+            "00:01.40",
+            "00:01.60",
+            "00:01.80",
+            "00:02.00",
+            "00:02.20",
+            "00:02.40",
+            "00:02.60",
+            "00:02.80",
+            "00:03.00",
+            "00:03.20",
+            "00:03.40",
+            "00:03.60",
+            "00:03.80",
+            "00:04.00",
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00",
+            "00:05.20",
+            "00:05.40",
+            "00:05.60",
+            "00:05.80",
+            "00:06.00"
+          ]
+        },
+        {
+          "action": "attaching red gear",
+          "score": 90,
+          "keywords": [
+            "red gear",
+            "attaching",
+            "final piece"
+          ],
+          "evidence": "The person picks up the large red gear and carefully places it onto the assembled structure, completing the model.",
+          "timestamps": [
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00",
+            "00:05.20",
+            "00:05.40",
+            "00:05.60",
+            "00:05.80",
+            "00:06.00"
+          ]
+        },
+        {
+          "action": "disconnecting red gear",
+          "score": 95,
+          "keywords": [
+            "red gear",
+            "disconnect",
+            "hands"
+          ],
+          "evidence": "The person uses both hands to separate the red gear from the central assembly, revealing internal components.",
+          "timestamps": [
+            "00:06.80",
+            "00:07.00",
+            "00:07.20",
+            "00:07.40",
+            "00:07.60",
+            "00:07.80",
+            "00:08.00",
+            "00:08.20",
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60",
+            "00:09.80",
+            "00:10.00",
+            "00:10.20",
+            "00:10.40",
+            "00:10.60",
+            "00:10.80",
+            "00:11.00",
+            "00:11.20",
+            "00:11.40",
+            "00:11.60",
+            "00:11.80",
+            "00:12.00",
+            "00:12.20",
+            "00:12.40",
+            "00:12.60"
+          ]
+        },
+        {
+          "action": "removing yellow gear",
+          "score": 90,
+          "keywords": [
+            "yellow gear",
+            "remove",
+            "hand"
+          ],
+          "evidence": "The person uses their left hand to lift and remove the yellow gear from the white base structure.",
+          "timestamps": [
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60",
+            "00:09.80",
+            "00:10.00",
+            "00:10.20",
+            "00:10.40",
+            "00:10.60",
+            "00:10.80",
+            "00:11.00",
+            "00:11.20",
+            "00:11.40",
+            "00:11.60",
+            "00:11.80",
+            "00:12.00",
+            "00:12.20",
+            "00:12.40",
+            "00:12.60"
+          ]
+        },
+        {
+          "action": "adjusting red gear",
+          "score": 95,
+          "keywords": [
+            "red gear",
+            "hands",
+            "manipulating",
+            "assembly"
+          ],
+          "evidence": "The person's hands are actively rotating and positioning the red gear, attempting to align it with other parts of the mechanism.",
+          "timestamps": [
+            "00:12.80",
+            "00:13.00",
+            "00:13.20",
+            "00:13.40",
+            "00:13.60",
+            "00:13.80",
+            "00:14.00",
+            "00:14.20",
+            "00:14.40",
+            "00:14.60",
+            "00:14.80"
+          ]
+        },
+        {
+          "action": "removing gear from structure",
+          "score": 90,
+          "keywords": [
+            "detaching",
+            "gear",
+            "disassembly",
+            "hands"
+          ],
+          "evidence": "The person uses their fingers to carefully lift the red gear off the central white support structure, indicating a disassembly or adjustment step.",
+          "timestamps": [
+            "00:13.60",
+            "00:13.80",
+            "00:14.00",
+            "00:14.20",
+            "00:14.40",
+            "00:14.60",
+            "00:14.80"
+          ]
+        },
+        {
+          "action": "holding green gear",
+          "score": 85,
+          "keywords": [
+            "green gear",
+            "holding",
+            "preparing",
+            "hands"
+          ],
+          "evidence": "The person holds the green gear in their right hand, seemingly preparing to attach it or test its interaction with the red gear.",
+          "timestamps": [
+            "00:14.60",
+            "00:14.80"
+          ]
+        },
+        {
+          "action": "examining gear assembly",
+          "score": 80,
+          "keywords": [
+            "inspection",
+            "close-up",
+            "focusing",
+            "hands"
+          ],
+          "evidence": "The person brings the red gear close to their face and examines it, suggesting a detailed inspection or troubleshooting step.",
+          "timestamps": [
+            "00:14.60",
+            "00:14.80"
+          ]
+        }
+      ]
+    }
+  }
+}

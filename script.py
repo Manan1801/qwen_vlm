@@ -13,6 +13,25 @@ import cv2
 import torch
 torch.backends.cudnn.enabled = False
 
+try:
+    import types
+    import triton.runtime.autotuner as triton_autotuner
+    import triton.runtime.jit as triton_jit
+    import triton.runtime.cache as triton_cache
+    import triton.compiler.compiler as triton_compiler
+
+    if not hasattr(triton_autotuner, "JITFunction") and hasattr(triton_jit, "JITFunction"):
+        triton_autotuner.JITFunction = triton_jit.JITFunction
+    if not hasattr(triton_autotuner, "get_cache_invalidating_env_vars"):
+        triton_autotuner.get_cache_invalidating_env_vars = triton_compiler.get_cache_invalidating_env_vars
+    if not hasattr(triton_autotuner, "get_cache_manager"):
+        triton_autotuner.get_cache_manager = triton_cache.get_cache_manager
+    if not hasattr(triton_autotuner, "triton_key"):
+        triton_autotuner.triton_key = triton_compiler.triton_key
+    if not hasattr(triton_autotuner, "knobs"):
+        triton_autotuner.knobs = types.SimpleNamespace(autotuning=types.SimpleNamespace(print=False))
+except Exception:
+    pass
 
 from PIL import Image
 from transformers import (
@@ -256,39 +275,43 @@ def load_model():
 
     print("Loading model...")
 
-    if not torch.cuda.is_available():
+    if torch.cuda.is_available():
+        # Allow Transformers/Accelerate to distribute
+        # the model between GPU VRAM and CPU RAM.
+        max_memory = {
+            0: f"{GPU_MEMORY_GIB}GiB",
+            "cpu": f"{CPU_MEMORY_GIB}GiB",
+        }
 
-        raise RuntimeError(
-            "CUDA is not available. "
-            "Check your PyTorch/NVIDIA installation."
+        print("\nMemory configuration:")
+        print(f"GPU:  {GPU_MEMORY_GIB} GiB")
+        print(f"CPU:  {CPU_MEMORY_GIB} GiB")
+
+        model = AutoModelForMultimodalLM.from_pretrained(
+
+            MODEL_NAME,
+
+            # Keep the model's native FP8 representation
+            torch_dtype="auto",
+
+            # Automatically distribute model layers
+            device_map="auto",
+
+            # GPU first, CPU RAM if required
+            max_memory=max_memory,
+
+            low_cpu_mem_usage=True,
         )
-
-    # Allow Transformers/Accelerate to distribute
-    # the model between GPU VRAM and CPU RAM.
-    max_memory = {
-        0: f"{GPU_MEMORY_GIB}GiB",
-        "cpu": f"{CPU_MEMORY_GIB}GiB",
-    }
-
-    print("\nMemory configuration:")
-    print(f"GPU:  {GPU_MEMORY_GIB} GiB")
-    print(f"CPU:  {CPU_MEMORY_GIB} GiB")
-
-    model = AutoModelForMultimodalLM.from_pretrained(
-
-        MODEL_NAME,
-
-        # Keep the model's native FP8 representation
-        torch_dtype="auto",
-
-        # Automatically distribute model layers
-        device_map="auto",
-
-        # GPU first, CPU RAM if required
-        max_memory=max_memory,
-
-        low_cpu_mem_usage=True,
-    )
+        device_label = model.hf_device_map
+    else:
+        print("CUDA is not available; falling back to CPU execution.")
+        model = AutoModelForMultimodalLM.from_pretrained(
+            MODEL_NAME,
+            torch_dtype="auto",
+            low_cpu_mem_usage=True,
+        )
+        model = model.to(torch.device("cpu"))
+        device_label = {"model": "cpu"}
 
     model.eval()
 
@@ -296,7 +319,7 @@ def load_model():
 
     print("\nDevice map:")
 
-    print(model.hf_device_map)
+    print(device_label)
 
     return processor, model
 

@@ -1,0 +1,660 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_assemble_top_30_40",
+  "mode": "fixed",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:06.40",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical gear system on a black surface. They connect various colored gears and components, including a red gear, green parts, and a grey plate, attempting to mesh them correctly. The person rotates and tests the connections, adjusting parts to ensure proper alignment and functionality of the gear mechanism.\",\n    \"action_matches\": [\n        {\n            \"action\": \"Meshing gears - correct\",\n            \"score\": 90,\n            \"keywords\": [\"gears\", \"meshing\", \"correct\", \"alignment\"],\n            \"evidence\": \"The person repeatedly connects gears and adjusts their positions to ensure they mesh properly, as seen in frames 14-25 where gears are aligned and rotated together.\",\n            \"frame_indices\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 85,\n            \"keywords\": [\"testing\", \"turning\", \"gears\", \"rotation\"],\n            \"evidence\": \"The person actively rotates the assembled gears to test their movement and ensure they function correctly, visible in frames 14-25.\",\n            \"frame_indices\": [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 80,\n            \"keywords\": [\"orienting\", \"adjusting\", \"position\", \"alignment\"],\n            \"evidence\": \"The person frequently adjusts the orientation of the gears and components to achieve proper alignment, as seen in frames 6-13 and 26-31.\",\n            \"frame_indices\": [6, 7, 8, 9, 10, 11, 12, 26, 27, 28, 29, 30, 31]\n        },\n        {\n            \"action\": \"disassembling\",\n            \"score\": 10,\n            \"keywords\": [\"disassembling\", \"removing\", \"parts\"],\n            \"",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical gear system on a black surface. They connect various colored gears and components, including a red gear, green parts, and a grey plate, attempting to mesh them correctly. The person rotates and tests the connections, adjusting parts to ensure proper alignment and functionality of the gear mechanism.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 90,
+            "keywords": [
+              "gears",
+              "meshing",
+              "correct",
+              "alignment"
+            ],
+            "evidence": "The person repeatedly connects gears and adjusts their positions to ensure they mesh properly, as seen in frames 14-25 where gears are aligned and rotated together.",
+            "timestamps": [
+              "00:02.80",
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00"
+            ]
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 80,
+            "keywords": [
+              "orienting",
+              "adjusting",
+              "position",
+              "alignment"
+            ],
+            "evidence": "The person frequently adjusts the orientation of the gears and components to achieve proper alignment, as seen in frames 6-13 and 26-31.",
+            "timestamps": [
+              "00:01.20",
+              "00:01.40",
+              "00:01.60",
+              "00:01.80",
+              "00:02.00",
+              "00:02.20",
+              "00:02.40",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00",
+              "00:06.20"
+            ]
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 85,
+            "keywords": [
+              "testing",
+              "turning",
+              "gears",
+              "rotation"
+            ],
+            "evidence": "The person actively rotates the assembled gears to test their movement and ensure they function correctly, visible in frames 14-25.",
+            "timestamps": [
+              "00:02.80",
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:06.40",
+      "end_time": "00:09.90",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical component, likely a gear system, on a black surface. They hold a red gear assembly in one hand and manipulate small parts with the other, attempting to connect them. The person carefully aligns and attaches various pieces, including a grey plate and other small components, to the red gear, indicating a precise assembly process.\",\n    \"action_matches\": [\n        {\n            \"action\": \"Grey plate and red gear - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is connecting a grey plate to the red gear, which is a correct assembly step for this type of mechanical component.\",\n            \"frame_indices\": [\n                8,\n                9,\n                10,\n                11,\n                12,\n                13,\n                14,\n                15,\n                16\n            ]\n        },\n        {\n            \"action\": \"mount - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is mounting the grey plate onto the red gear, which is a correct mounting action for this mechanical assembly.\",\n            \"frame_indices\": [\n                8,\n                9,\n                10,\n                11,\n                12,\n                13,\n                14,\n                15,\n                16\n            ]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is carefully rotating and aligning the grey plate with the red gear to ensure proper orientation before mounting.\",\n            \"frame_indices\": [\n                8,\n                9,\n                10,\n                11,\n                12,\n                13,\n                14,\n                15,\n                16\n            ]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is turning the assembled gear system to test its functionality after mounting the components.\",\n            \"frame_indices\": [\n                15,\n                16\n            ]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical component, likely a gear system, on a black surface. They hold a red gear assembly in one hand and manipulate small parts with the other, attempting to connect them. The person carefully aligns and attaches various pieces, including a grey plate and other small components, to the red gear, indicating a precise assembly process.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person is connecting a grey plate to the red gear, which is a correct assembly step for this type of mechanical component.",
+            "timestamps": [
+              "00:08.00",
+              "00:08.20",
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60"
+            ]
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person is mounting the grey plate onto the red gear, which is a correct mounting action for this mechanical assembly.",
+            "timestamps": [
+              "00:08.00",
+              "00:08.20",
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60"
+            ]
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person is carefully rotating and aligning the grey plate with the red gear to ensure proper orientation before mounting.",
+            "timestamps": [
+              "00:08.00",
+              "00:08.20",
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60"
+            ]
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person is turning the assembled gear system to test its functionality after mounting the components.",
+            "timestamps": [
+              "00:09.40",
+              "00:09.60"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person meticulously assembles a mechanical gear system on a black surface, connecting various colored components including a red gear, green parts, and a grey plate. They repeatedly orient and adjust parts to ensure correct alignment and functionality, frequently testing the assembled gears by rotating them to confirm smooth operation. The assembly progresses with precise mounting of the grey plate onto the red gear, which is confirmed as correct and properly oriented. The person’s careful, methodical approach demonstrates a focus on accuracy and mechanical integrity throughout the entire process, culminating in a fully functional gear mechanism.\",\n    \"action_matches\": [\n        {\n            \"action\": \"Meshing gears - correct\",\n            \"score\": 90,\n            \"keywords\": [\"gears\", \"meshing\", \"correct\", \"alignment\"],\n            \"evidence\": \"The person repeatedly connects gears and adjusts their positions to ensure they mesh properly, as seen in frames 14-25 where gears are aligned and rotated together.\",\n            \"timestamps\": [\n                \"00:02.80\",\n                \"00:03.00\",\n                \"00:03.20\",\n                \"00:03.40\",\n                \"00:03.60\",\n                \"00:03.80\",\n                \"00:04.00\",\n                \"00:04.20\",\n                \"00:04.40\",\n                \"00:04.60\",\n                \"00:04.80\",\n                \"00:05.00\"\n            ]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 85,\n            \"keywords\": [\"orienting\", \"adjusting\", \"position\", \"alignment\"],\n            \"evidence\": \"The person frequently adjusts the orientation of the gears and components to achieve proper alignment, as seen in frames 6-13 and 26-31.\",\n            \"timestamps\": [\n                \"00:01.20\",\n                \"00:01.40\",\n                \"00:01.60\",\n                \"00:01.80\",\n                \"00:02.00\",\n                \"00:02.20\",\n                \"00:02.40\",\n                \"00:05.20\",\n                \"00:05.40\",\n                \"00:05.60\",\n                \"00:05.80\",\n                \"00:06.00\",\n                \"00:06.20\"\n            ]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 85,\n            \"keywords\": [\"testing\", \"turning\", \"gears\", \"rotation\"],\n            \"evidence\": \"The person actively rotates the assembled gears to test their movement and ensure they function correctly, visible in frames 14-25.\",\n            \"timestamps\": [\n                \"00:02.80\",\n                \"00:03.00\",\n                \"00:03.20\",\n                \"00:03.40\",\n                \"00:03.60\",\n                \"00:03.80\",\n                \"00:04.00\",\n                \"00:04.20\",\n                \"00:04.40\",\n                \"00:04.60\",\n                \"00:04.80\",\n                \"00:05.00\"\n            ]\n        },\n        {\n            \"action\": \"Grey plate and red gear - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is connecting a grey plate to the red gear, which is a correct assembly step for this type of mechanical component.\",\n            \"timestamps\": [\n                \"00:08.00\",\n                \"00:08.20\",\n                \"00:08.40\",\n                \"00:08.60\",\n                \"00:08.80\",\n                \"00:09.00\",\n                \"00:09.20\",\n                \"00:09.40\",\n                \"00:09.60\"\n            ]\n        },\n        {\n            \"action\": \"mount - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is mounting the grey plate onto the red gear, which is a correct mounting action for this mechanical assembly.\",\n            \"timestamps\": [\n                \"00:08.00\",\n                \"00:08.20\",\n                \"00:08.40\",\n                \"00:08.60\",\n                \"00:08.80\",\n                \"00:09.00\",\n                \"00:09.20\",\n                \"00:09.40\",\n                \"00:09.60\"\n            ]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is carefully rotating and aligning the grey plate with the red gear to ensure proper orientation before mounting.\",\n            \"timestamps\": [\n                \"00:08.00\",\n                \"00:08.20\",\n                \"00:08.40\",\n                \"00:08.60\",\n                \"00:08.80\",\n                \"00:09.00\",\n                \"00:09.20\",\n                \"00:09.40\",\n                \"00:09.60\"\n            ]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person is turning the assembled gear system to test its functionality after mounting the components.\",\n            \"timestamps\": [\n                \"00:09.40\",\n                \"00:09.60\"\n            ]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person meticulously assembles a mechanical gear system on a black surface, connecting various colored components including a red gear, green parts, and a grey plate. They repeatedly orient and adjust parts to ensure correct alignment and functionality, frequently testing the assembled gears by rotating them to confirm smooth operation. The assembly progresses with precise mounting of the grey plate onto the red gear, which is confirmed as correct and properly oriented. The person’s careful, methodical approach demonstrates a focus on accuracy and mechanical integrity throughout the entire process, culminating in a fully functional gear mechanism.",
+      "action_matches": [
+        {
+          "action": "Meshing gears - correct",
+          "score": 90,
+          "keywords": [
+            "gears",
+            "meshing",
+            "correct",
+            "alignment"
+          ],
+          "evidence": "The person repeatedly connects gears and adjusts their positions to ensure they mesh properly, as seen in frames 14-25 where gears are aligned and rotated together.",
+          "timestamps": [
+            "00:02.80",
+            "00:03.00",
+            "00:03.20",
+            "00:03.40",
+            "00:03.60",
+            "00:03.80",
+            "00:04.00",
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00"
+          ]
+        },
+        {
+          "action": "Meshing gears - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Stopper magnet - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Stopper magnet - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Axle and gear magnets - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Axle and gear magnets - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Grey plate and red gear - correct",
+          "score": 100,
+          "keywords": [],
+          "evidence": "The person is connecting a grey plate to the red gear, which is a correct assembly step for this type of mechanical component.",
+          "timestamps": [
+            "00:08.00",
+            "00:08.20",
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60"
+          ]
+        },
+        {
+          "action": "Grey plate and red gear - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Look at the components - includes rotations, looking, search",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "mount - correct",
+          "score": 100,
+          "keywords": [],
+          "evidence": "The person is mounting the grey plate onto the red gear, which is a correct mounting action for this mechanical assembly.",
+          "timestamps": [
+            "00:08.00",
+            "00:08.20",
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60"
+          ]
+        },
+        {
+          "action": "mount - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "pairing - correct combo",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "pairing - incorrect combo",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Orientation of the part - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Orientation of the part - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "disassembling",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Correct pair & orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Incorrect pair & correct orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Correct pair & incorrect orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "Incorrect pair & orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        },
+        {
+          "action": "orienting",
+          "score": 100,
+          "keywords": [],
+          "evidence": "The person is carefully rotating and aligning the grey plate with the red gear to ensure proper orientation before mounting.",
+          "timestamps": [
+            "00:08.00",
+            "00:08.20",
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60"
+          ]
+        },
+        {
+          "action": "testing - includes turning gears",
+          "score": 100,
+          "keywords": [],
+          "evidence": "The person is turning the assembled gear system to test its functionality after mounting the components.",
+          "timestamps": [
+            "00:09.40",
+            "00:09.60"
+          ]
+        },
+        {
+          "action": "rotating",
+          "score": 0,
+          "keywords": [],
+          "evidence": "",
+          "timestamps": []
+        }
+      ]
+    }
+  }
+}

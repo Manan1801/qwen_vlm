@@ -1,0 +1,378 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_assemble_top_30_40",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:04.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a small mechanical device on a black surface. They methodically connect various colorful plastic components, including gears and axles, using both hands. The assembly process involves picking up parts, aligning them, and attaching them to form a functional-looking toy or prototype. The person's movements are deliberate and focused on constructing the device piece by piece.\",\n    \"action_matches\": [\n        {\n            \"action\": \"assembling mechanical parts\",\n            \"score\": 100,\n            \"keywords\": [\"hands\", \"gears\", \"axles\", \"connecting\", \"building\"],\n            \"evidence\": \"The person is consistently using both hands to connect various plastic components, including gears and axles, to form a mechanical assembly on a black surface.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"picking up gear\",\n            \"score\": 100,\n            \"keywords\": [\"yellow gear\", \"small gear\", \"retrieving\"],\n            \"evidence\": \"In frame 6, the person picks up the small yellow gear from the black surface and brings it toward the assembly.\",\n            \"frame_indices\": [6]\n        },\n        {\n            \"action\": \"attaching gear to axle\",\n            \"score\": 100,\n            \"keywords\": [\"connecting gear\", \"axle\", \"meshing\"],\n            \"evidence\": \"In frame 7, the person is seen carefully placing the yellow gear onto the green axle, aligning it to connect with the red gear.\",\n            \"frame_indices\": [7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a small mechanical device on a black surface. They methodically connect various colorful plastic components, including gears and axles, using both hands. The assembly process involves picking up parts, aligning them, and attaching them to form a functional-looking toy or prototype. The person's movements are deliberate and focused on constructing the device piece by piece.",
+        "action_matches": [
+          {
+            "action": "assembling mechanical parts",
+            "score": 100,
+            "keywords": [
+              "hands",
+              "gears",
+              "axles",
+              "connecting",
+              "building"
+            ],
+            "evidence": "The person is consistently using both hands to connect various plastic components, including gears and axles, to form a mechanical assembly on a black surface.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "picking up gear",
+            "score": 100,
+            "keywords": [
+              "yellow gear",
+              "small gear",
+              "retrieving"
+            ],
+            "evidence": "In frame 6, the person picks up the small yellow gear from the black surface and brings it toward the assembly.",
+            "timestamps": [
+              "00:03.00"
+            ]
+          },
+          {
+            "action": "attaching gear to axle",
+            "score": 100,
+            "keywords": [
+              "connecting gear",
+              "axle",
+              "meshing"
+            ],
+            "evidence": "In frame 7, the person is seen carefully placing the yellow gear onto the green axle, aligning it to connect with the red gear.",
+            "timestamps": [
+              "00:03.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:04.00",
+      "end_time": "00:08.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or disassembling a small mechanical toy on a black surface. They hold a red base component in one hand and manipulate various small parts with the other, including a gray gear and a green piece, carefully fitting them together. The process involves precise hand movements and adjustments to connect the components.\",\n    \"action_matches\": [\n        {\n            \"action\": \"detaching gear from base\",\n            \"score\": 95,\n            \"keywords\": [\"detaching\", \"gear\", \"base\", \"hands\"],\n            \"evidence\": \"The person uses both hands to separate a small gray gear from the red base component, moving it away from the main assembly.\",\n            \"frame_indices\": [0, 1, 2]\n        },\n        {\n            \"action\": \"placing gear on surface\",\n            \"score\": 90,\n            \"keywords\": [\"placing\", \"gear\", \"surface\", \"black\"],\n            \"evidence\": \"The detached gray gear is set down on the black surface, remaining there for subsequent frames.\",\n            \"frame_indices\": [3, 4, 5]\n        },\n        {\n            \"action\": \"adjusting green piece\",\n            \"score\": 85,\n            \"keywords\": [\"adjusting\", \"green\", \"piece\", \"hands\"],\n            \"evidence\": \"The person uses their right hand to reposition a small green piece attached to the red base, making fine adjustments.\",\n            \"frame_indices\": [5, 6, 7]\n        },\n        {\n            \"action\": \"holding red base\",\n            \"score\": 95,\n            \"keywords\": [\"holding\", \"red\", \"base\", \"hands\"],\n            \"evidence\": \"The person consistently holds the red base component with their left hand throughout the sequence, providing stability for assembly.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or disassembling a small mechanical toy on a black surface. They hold a red base component in one hand and manipulate various small parts with the other, including a gray gear and a green piece, carefully fitting them together. The process involves precise hand movements and adjustments to connect the components.",
+        "action_matches": [
+          {
+            "action": "detaching gear from base",
+            "score": 95,
+            "keywords": [
+              "detaching",
+              "gear",
+              "base",
+              "hands"
+            ],
+            "evidence": "The person uses both hands to separate a small gray gear from the red base component, moving it away from the main assembly.",
+            "timestamps": [
+              "00:04.00",
+              "00:04.50",
+              "00:05.00"
+            ]
+          },
+          {
+            "action": "placing gear on surface",
+            "score": 90,
+            "keywords": [
+              "placing",
+              "gear",
+              "surface",
+              "black"
+            ],
+            "evidence": "The detached gray gear is set down on the black surface, remaining there for subsequent frames.",
+            "timestamps": [
+              "00:05.50",
+              "00:06.00",
+              "00:06.50"
+            ]
+          },
+          {
+            "action": "adjusting green piece",
+            "score": 85,
+            "keywords": [
+              "adjusting",
+              "green",
+              "piece",
+              "hands"
+            ],
+            "evidence": "The person uses their right hand to reposition a small green piece attached to the red base, making fine adjustments.",
+            "timestamps": [
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "holding red base",
+            "score": 95,
+            "keywords": [
+              "holding",
+              "red",
+              "base",
+              "hands"
+            ],
+            "evidence": "The person consistently holds the red base component with their left hand throughout the sequence, providing stability for assembly.",
+            "timestamps": [
+              "00:04.00",
+              "00:04.50",
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 3,
+      "start_time": "00:08.00",
+      "end_time": "00:09.60",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a small mechanical device, likely a toy or model, using their hands. The device has red, green, and gray components. The person holds the main body steady with one hand while manipulating a small gray part with the other, appearing to connect or secure it. The setting is a workbench with a pegboard and a black mat.\",\n    \"action_matches\": [\n        {\n            \"action\": \"manipulating small gray part\",\n            \"score\": 95,\n            \"keywords\": [\"gray part\", \"adjusting\", \"connecting\", \"hands\"],\n            \"evidence\": \"The person's right hand is actively moving a small gray component, attempting to attach or align it with the red and green base held in the left hand.\",\n            \"frame_indices\": [0, 1, 2, 3]\n        },\n        {\n            \"action\": \"holding red and green base steady\",\n            \"score\": 90,\n            \"keywords\": [\"red base\", \"green part\", \"holding\", \"stable\"],\n            \"evidence\": \"The left hand maintains a firm grip on the red and green assembly, keeping it stationary while the right hand works on the small gray piece.\",\n            \"frame_indices\": [0, 1, 2, 3]\n        },\n        {\n            \"action\": \"pressing gray part into place\",\n            \"score\": 85,\n            \"keywords\": [\"pressing\", \"securing\", \"attachment\", \"finalizing\"],\n            \"evidence\": \"In the final frame, the gray part is visibly being pushed down and into the red base, indicating the action of securing it.\",\n            \"frame_indices\": [3]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a small mechanical device, likely a toy or model, using their hands. The device has red, green, and gray components. The person holds the main body steady with one hand while manipulating a small gray part with the other, appearing to connect or secure it. The setting is a workbench with a pegboard and a black mat.",
+        "action_matches": [
+          {
+            "action": "manipulating small gray part",
+            "score": 95,
+            "keywords": [
+              "gray part",
+              "adjusting",
+              "connecting",
+              "hands"
+            ],
+            "evidence": "The person's right hand is actively moving a small gray component, attempting to attach or align it with the red and green base held in the left hand.",
+            "timestamps": [
+              "00:08.00",
+              "00:08.50",
+              "00:09.00",
+              "00:09.50"
+            ]
+          },
+          {
+            "action": "holding red and green base steady",
+            "score": 90,
+            "keywords": [
+              "red base",
+              "green part",
+              "holding",
+              "stable"
+            ],
+            "evidence": "The left hand maintains a firm grip on the red and green assembly, keeping it stationary while the right hand works on the small gray piece.",
+            "timestamps": [
+              "00:08.00",
+              "00:08.50",
+              "00:09.00",
+              "00:09.50"
+            ]
+          },
+          {
+            "action": "pressing gray part into place",
+            "score": 85,
+            "keywords": [
+              "pressing",
+              "securing",
+              "attachment",
+              "finalizing"
+            ],
+            "evidence": "In the final frame, the gray part is visibly being pushed down and into the red base, indicating the action of securing it.",
+            "timestamps": [
+              "00:09.50"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a small mechanical toy or prototype on a black surface, using both hands to connect colorful plastic components including gears, axles, and base pieces. Initially, they build by attaching a yellow gear to a green axle. Later, they disassemble by detaching a gray gear from a red base and placing it aside, then adjust a green piece on the base. Finally, they secure a small gray part into the red and green assembly by pressing it firmly into place. The process involves precise hand movements, consistent use of a pegboard workbench, and a focus on connecting and stabilizing components to form a functional mechanical structure.\",\n    \"action_matches\": [\n        {\n            \"action\": \"assembling mechanical parts\",\n            \"score\": 100,\n            \"keywords\": [\"hands\", \"gears\", \"axles\", \"connecting\", \"building\"],\n            \"evidence\": \"The person consistently uses both hands to connect various plastic components, including gears and axles, to form a mechanical assembly on a black surface.\",\n            \"timestamps\": [\"00:00.00\", \"00:00.50\", \"00:01.00\", \"00:01.50\", \"00:02.00\", \"00:02.50\", \"00:03.00\", \"00:03.50\"]\n        },\n        {\n            \"action\": \"picking up gear\",\n            \"score\": 100,\n            \"keywords\": [\"yellow gear\", \"small gear\", \"retrieving\"],\n            \"evidence\": \"In frame 6, the person picks up the small yellow gear from the black surface and brings it toward the assembly.\",\n            \"timestamps\": [\"00:03.00\"]\n        },\n        {\n            \"action\": \"attaching gear to axle\",\n            \"score\": 100,\n            \"keywords\": [\"connecting gear\", \"axle\", \"meshing\"],\n            \"evidence\": \"In frame 7, the person is seen carefully placing the yellow gear onto the green axle, aligning it to connect with the red gear.\",\n            \"timestamps\": [\"00:03.50\"]\n        },\n        {\n            \"action\": \"detaching gear from base\",\n            \"score\": 95,\n            \"keywords\": [\"detaching\", \"gear\", \"base\", \"hands\"],\n            \"evidence\": \"The person uses both hands to separate a small gray gear from the red base component, moving it away from the main assembly.\",\n            \"timestamps\": [\"00:04.00\", \"00:04.50\", \"00:05.00\"]\n        },\n        {\n            \"action\": \"placing gear on surface\",\n            \"score\": 90,\n            \"keywords\": [\"placing\", \"gear\", \"surface\", \"black\"],\n            \"evidence\": \"The detached gray gear is set down on the black surface, remaining there for subsequent frames.\",\n            \"timestamps\": [\"00:05.50\", \"00:06.00\", \"00:06.50\"]\n        },\n        {\n            \"action\": \"adjusting green piece\",\n            \"score\": 85,\n            \"keywords\": [\"adjusting\", \"green\", \"piece\", \"hands\"],\n            \"evidence\": \"The person uses their right hand to reposition a small green piece attached to the red base, making fine adjustments.\",\n            \"timestamps\": [\"00:06.50\", \"00:07.00\", \"00:07.50\"]\n        },\n        {\n            \"action\": \"holding red base\",\n            \"score\": 95,\n            \"keywords\": [\"holding\", \"red\", \"base\", \"hands\"],\n            \"evidence\": \"The person consistently holds the red base component with their left hand throughout the sequence, providing stability for assembly.\",\n            \"timestamps\": [\"00:04.00\", \"00:04.50\", \"00:05.00\", \"00:05.50\", \"00:06.00\", \"00:06.50\", \"00:07.00\", \"00:07.50\"]\n        },\n        {\n            \"action\": \"manipulating small gray part\",\n            \"score\": 95,\n            \"keywords\": [\"gray part\", \"adjusting\", \"connecting\", \"hands\"],\n            \"evidence\": \"The person's right hand is actively moving a small gray component, attempting to attach or align it with the red and green base held in the left hand.\",\n            \"timestamps\": [\"00:08.00\", \"00:08.50\", \"00:09.00\", \"00:09.50\"]\n        },\n        {\n            \"action\": \"holding red and green base steady\",\n            \"score\": 90,\n            \"keywords\": [\"red base\", \"green part\", \"holding\", \"stable\"],\n            \"evidence\": \"The left hand maintains a firm grip on the red and green assembly, keeping it stationary while the right hand works on the small gray piece.\",\n            \"timestamps\": [\"00:08.00\", \"00:08.50\", \"00:09.00\", \"00:09.50\"]\n        },\n        {\n            \"action\": \"pressing gray part into place\",\n            \"score\": 85,\n            \"keywords\": [\"pressing\", \"securing\", \"attachment\", \"finalizing\"],\n            \"evidence\": \"In the final frame, the gray part is visibly being pushed down and into the red base, indicating the action of securing it.\",\n            \"timestamps\": [\"00:09.50\"]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a small mechanical toy or prototype on a black surface, using both hands to connect colorful plastic components including gears, axles, and base pieces. Initially, they build by attaching a yellow gear to a green axle. Later, they disassemble by detaching a gray gear from a red base and placing it aside, then adjust a green piece on the base. Finally, they secure a small gray part into the red and green assembly by pressing it firmly into place. The process involves precise hand movements, consistent use of a pegboard workbench, and a focus on connecting and stabilizing components to form a functional mechanical structure.",
+      "action_matches": [
+        {
+          "action": "assembling mechanical parts",
+          "score": 100,
+          "keywords": [
+            "hands",
+            "gears",
+            "axles",
+            "connecting",
+            "building"
+          ],
+          "evidence": "The person consistently uses both hands to connect various plastic components, including gears and axles, to form a mechanical assembly on a black surface.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "picking up gear",
+          "score": 100,
+          "keywords": [
+            "yellow gear",
+            "small gear",
+            "retrieving"
+          ],
+          "evidence": "In frame 6, the person picks up the small yellow gear from the black surface and brings it toward the assembly.",
+          "timestamps": [
+            "00:03.00"
+          ]
+        },
+        {
+          "action": "attaching gear to axle",
+          "score": 100,
+          "keywords": [
+            "connecting gear",
+            "axle",
+            "meshing"
+          ],
+          "evidence": "In frame 7, the person is seen carefully placing the yellow gear onto the green axle, aligning it to connect with the red gear.",
+          "timestamps": [
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "detaching gear from base",
+          "score": 95,
+          "keywords": [
+            "detaching",
+            "gear",
+            "base",
+            "hands"
+          ],
+          "evidence": "The person uses both hands to separate a small gray gear from the red base component, moving it away from the main assembly.",
+          "timestamps": [
+            "00:04.00",
+            "00:04.50",
+            "00:05.00"
+          ]
+        },
+        {
+          "action": "placing gear on surface",
+          "score": 90,
+          "keywords": [
+            "placing",
+            "gear",
+            "surface",
+            "black"
+          ],
+          "evidence": "The detached gray gear is set down on the black surface, remaining there for subsequent frames.",
+          "timestamps": [
+            "00:05.50",
+            "00:06.00",
+            "00:06.50"
+          ]
+        },
+        {
+          "action": "adjusting green piece",
+          "score": 85,
+          "keywords": [
+            "adjusting",
+            "green",
+            "piece",
+            "hands"
+          ],
+          "evidence": "The person uses their right hand to reposition a small green piece attached to the red base, making fine adjustments.",
+          "timestamps": [
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "holding red base",
+          "score": 95,
+          "keywords": [
+            "holding",
+            "red",
+            "base",
+            "hands"
+          ],
+          "evidence": "The person consistently holds the red base component with their left hand throughout the sequence, providing stability for assembly.",
+          "timestamps": [
+            "00:04.00",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "manipulating small gray part",
+          "score": 95,
+          "keywords": [
+            "gray part",
+            "adjusting",
+            "connecting",
+            "hands"
+          ],
+          "evidence": "The person's right hand is actively moving a small gray component, attempting to attach or align it with the red and green base held in the left hand.",
+          "timestamps": [
+            "00:08.00",
+            "00:08.50",
+            "00:09.00",
+            "00:09.50"
+          ]
+        },
+        {
+          "action": "holding red and green base steady",
+          "score": 90,
+          "keywords": [
+            "red base",
+            "green part",
+            "holding",
+            "stable"
+          ],
+          "evidence": "The left hand maintains a firm grip on the red and green assembly, keeping it stationary while the right hand works on the small gray piece.",
+          "timestamps": [
+            "00:08.00",
+            "00:08.50",
+            "00:09.00",
+            "00:09.50"
+          ]
+        },
+        {
+          "action": "pressing gray part into place",
+          "score": 85,
+          "keywords": [
+            "pressing",
+            "securing",
+            "attachment",
+            "finalizing"
+          ],
+          "evidence": "In the final frame, the gray part is visibly being pushed down and into the red base, indicating the action of securing it.",
+          "timestamps": [
+            "00:09.50"
+          ]
+        }
+      ]
+    }
+  }
+}

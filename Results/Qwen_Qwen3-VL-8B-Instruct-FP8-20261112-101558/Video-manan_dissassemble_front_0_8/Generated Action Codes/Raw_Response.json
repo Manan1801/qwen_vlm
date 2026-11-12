@@ -1,0 +1,280 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_dissassemble_front_0_8",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:06.40",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical model from colorful plastic parts on a table. They methodically remove components, examine them, and reassemble them into a structure, occasionally placing parts down or adjusting their position. The process is deliberate and focused, suggesting a demonstration or educational activity involving gears and mechanical linkages.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling mechanical model\",\n            \"score\": 95,\n            \"keywords\": [\"removing parts\", \"taking apart\", \"unclipping\"],\n            \"evidence\": \"The person systematically removes various colored plastic components from the central structure, placing them on the table one by one.\",\n            \"frame_indices\": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]\n        },\n        {\n            \"action\": \"examining component\",\n            \"score\": 85,\n            \"keywords\": [\"inspecting\", \"holding part\", \"studying\"],\n            \"evidence\": \"The person holds up the red gear and inspects it closely before placing it back down or attempting to reattach it.\",\n            \"frame_indices\": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]\n        },\n        {\n            \"action\": \"repositioning part\",\n            \"score\": 80,\n            \"keywords\": [\"adjusting\", \"moving\", \"aligning\"],\n            \"evidence\": \"The person moves the green gear and other parts around on the table, sometimes repositioning them before attempting to reassemble the model.\",\n            \"frame_indices\": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical model from colorful plastic parts on a table. They methodically remove components, examine them, and reassemble them into a structure, occasionally placing parts down or adjusting their position. The process is deliberate and focused, suggesting a demonstration or educational activity involving gears and mechanical linkages.",
+        "action_matches": [
+          {
+            "action": "disassembling mechanical model",
+            "score": 95,
+            "keywords": [
+              "removing parts",
+              "taking apart",
+              "unclipping"
+            ],
+            "evidence": "The person systematically removes various colored plastic components from the central structure, placing them on the table one by one.",
+            "timestamps": [
+              "00:01.00",
+              "00:01.20",
+              "00:01.40",
+              "00:01.60",
+              "00:01.80",
+              "00:02.00",
+              "00:02.20",
+              "00:02.40",
+              "00:02.60",
+              "00:02.80",
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00"
+            ]
+          },
+          {
+            "action": "examining component",
+            "score": 85,
+            "keywords": [
+              "inspecting",
+              "holding part",
+              "studying"
+            ],
+            "evidence": "The person holds up the red gear and inspects it closely before placing it back down or attempting to reattach it.",
+            "timestamps": [
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:06.40",
+      "end_time": "00:07.90",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical model from colorful plastic parts on a table. They carefully manipulate small components, separating them from a central structure and placing them on the table. The individual appears focused, methodically disassembling the model piece by piece, likely for demonstration or repair purposes.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling mechanical model\",\n            \"score\": 95,\n            \"keywords\": [\"hands\", \"plastic parts\", \"separating\", \"table\"],\n            \"evidence\": \"The person is actively removing and detaching individual components from the central white structure, placing them on the table.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"holding components\",\n            \"score\": 90,\n            \"keywords\": [\"hands\", \"parts\", \"examining\", \"separated\"],\n            \"evidence\": \"In frames 5 and 6, the person holds two separate pieces, one white and one yellow, before placing them down.\",\n            \"frame_indices\": [5, 6]\n        },\n        {\n            \"action\": \"placing parts on table\",\n            \"score\": 85,\n            \"keywords\": [\"table\", \"components\", \"arranging\", \"disassembly\"],\n            \"evidence\": \"The person systematically lays down the separated pieces onto the black table surface, indicating an organized disassembly process.\",\n            \"frame_indices\": [6, 7]\n        },\n        {\n            \"action\": \"reaching for part\",\n            \"score\": 80,\n            \"keywords\": [\"hand\", \"reach\", \"component\", \"table\"],\n            \"evidence\": \"In frame 7, the person reaches toward a red gear on the table, indicating an intention to pick it up or reposition it.\",\n            \"frame_indices\": [7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical model from colorful plastic parts on a table. They carefully manipulate small components, separating them from a central structure and placing them on the table. The individual appears focused, methodically disassembling the model piece by piece, likely for demonstration or repair purposes.",
+        "action_matches": [
+          {
+            "action": "disassembling mechanical model",
+            "score": 95,
+            "keywords": [
+              "hands",
+              "plastic parts",
+              "separating",
+              "table"
+            ],
+            "evidence": "The person is actively removing and detaching individual components from the central white structure, placing them on the table.",
+            "timestamps": [
+              "00:06.40",
+              "00:06.60",
+              "00:06.80",
+              "00:07.00",
+              "00:07.20",
+              "00:07.40",
+              "00:07.60",
+              "00:07.80"
+            ]
+          },
+          {
+            "action": "holding components",
+            "score": 90,
+            "keywords": [
+              "hands",
+              "parts",
+              "examining",
+              "separated"
+            ],
+            "evidence": "In frames 5 and 6, the person holds two separate pieces, one white and one yellow, before placing them down.",
+            "timestamps": [
+              "00:07.40",
+              "00:07.60"
+            ]
+          },
+          {
+            "action": "placing parts on table",
+            "score": 85,
+            "keywords": [
+              "table",
+              "components",
+              "arranging",
+              "disassembly"
+            ],
+            "evidence": "The person systematically lays down the separated pieces onto the black table surface, indicating an organized disassembly process.",
+            "timestamps": [
+              "00:07.60",
+              "00:07.80"
+            ]
+          },
+          {
+            "action": "reaching for part",
+            "score": 80,
+            "keywords": [
+              "hand",
+              "reach",
+              "component",
+              "table"
+            ],
+            "evidence": "In frame 7, the person reaches toward a red gear on the table, indicating an intention to pick it up or reposition it.",
+            "timestamps": [
+              "00:07.80"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically disassembles a colorful plastic mechanical model on a table, carefully removing and examining individual components such as gears and linkages. Their focused, deliberate movements suggest an educational or demonstrative purpose, possibly to explain the model’s internal mechanics or to prepare it for reassembly or repair. Throughout the video, they hold, inspect, and place parts down systematically, occasionally reaching for components to reposition or retrieve them. The process is continuous and organized, with no interruptions, indicating a planned, step-by-step teardown rather than random dismantling. The person’s attention to detail and consistent handling of parts imply a familiarity with the model’s structure and function.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling mechanical model\",\n            \"score\": 95,\n            \"keywords\": [\"removing parts\", \"taking apart\", \"unclipping\", \"separating\", \"detaching\", \"hands\", \"plastic parts\"],\n            \"evidence\": \"The person systematically removes various colored plastic components from the central structure, placing them on the table one by one, indicating a methodical teardown process.\",\n            \"timestamps\": [\n                \"00:01.00\",\n                \"00:01.20\",\n                \"00:01.40\",\n                \"00:01.60\",\n                \"00:01.80\",\n                \"00:02.00\",\n                \"00:02.20\",\n                \"00:02.40\",\n                \"00:02.60\",\n                \"00:02.80\",\n                \"00:03.00\",\n                \"00:03.20\",\n                \"00:03.40\",\n                \"00:03.60\",\n                \"00:03.80\",\n                \"00:04.00\",\n                \"00:04.20\",\n                \"00:04.40\",\n                \"00:04.60\",\n                \"00:04.80\",\n                \"00:05.00\",\n                \"00:05.20\",\n                \"00:05.40\",\n                \"00:05.60\",\n                \"00:05.80\",\n                \"00:06.00\",\n                \"00:06.40\",\n                \"00:06.60\",\n                \"00:06.80\",\n                \"00:07.00\",\n                \"00:07.20\",\n                \"00:07.40\",\n                \"00:07.60\",\n                \"00:07.80\"\n            ]\n        },\n        {\n            \"action\": \"examining component\",\n            \"score\": 85,\n            \"keywords\": [\"inspecting\", \"holding part\", \"studying\", \"examining\", \"separated\"],\n            \"evidence\": \"The person holds up and inspects individual parts such as a red gear before placing them back or attempting to reattach them, indicating close visual analysis.\",\n            \"timestamps\": [\n                \"00:03.00\",\n                \"00:03.20\",\n                \"00:03.40\",\n                \"00:03.60\",\n                \"00:03.80\",\n                \"00:04.00\",\n                \"00:04.20\",\n                \"00:04.40\",\n                \"00:04.60\",\n                \"00:04.80\",\n                \"00:05.00\",\n                \"00:05.20\",\n                \"00:05.40\",\n                \"00:05.60\",\n                \"00:05.80\",\n                \"00:06.00\",\n                \"00:07.40\",\n                \"00:07.60\"\n            ]\n        },\n        {\n            \"action\": \"placing parts on table\",\n            \"score\": 85,\n            \"keywords\": [\"table\", \"components\", \"arranging\", \"disassembly\"],\n            \"evidence\": \"The person systematically lays down separated pieces onto the black table surface, indicating an organized disassembly process.\",\n            \"timestamps\": [\n                \"00:07.60\",\n                \"00:07.80\"\n            ]\n        },\n        {\n            \"action\": \"reaching for part\",\n            \"score\": 80,\n            \"keywords\": [\"hand\", \"reach\", \"component\", \"table\"],\n            \"evidence\": \"In frame 7, the person reaches toward a red gear on the table, indicating an intention to pick it up or reposition it.\",\n            \"timestamps\": [\n                \"00:07.80\"\n            ]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically disassembles a colorful plastic mechanical model on a table, carefully removing and examining individual components such as gears and linkages. Their focused, deliberate movements suggest an educational or demonstrative purpose, possibly to explain the model’s internal mechanics or to prepare it for reassembly or repair. Throughout the video, they hold, inspect, and place parts down systematically, occasionally reaching for components to reposition or retrieve them. The process is continuous and organized, with no interruptions, indicating a planned, step-by-step teardown rather than random dismantling. The person’s attention to detail and consistent handling of parts imply a familiarity with the model’s structure and function.",
+      "action_matches": [
+        {
+          "action": "disassembling mechanical model",
+          "score": 95,
+          "keywords": [
+            "removing parts",
+            "taking apart",
+            "unclipping",
+            "separating",
+            "detaching",
+            "hands",
+            "plastic parts"
+          ],
+          "evidence": "The person systematically removes various colored plastic components from the central structure, placing them on the table one by one, indicating a methodical teardown process.",
+          "timestamps": [
+            "00:01.00",
+            "00:01.20",
+            "00:01.40",
+            "00:01.60",
+            "00:01.80",
+            "00:02.00",
+            "00:02.20",
+            "00:02.40",
+            "00:02.60",
+            "00:02.80",
+            "00:03.00",
+            "00:03.20",
+            "00:03.40",
+            "00:03.60",
+            "00:03.80",
+            "00:04.00",
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00",
+            "00:05.20",
+            "00:05.40",
+            "00:05.60",
+            "00:05.80",
+            "00:06.00",
+            "00:06.40",
+            "00:06.60",
+            "00:06.80",
+            "00:07.00",
+            "00:07.20",
+            "00:07.40",
+            "00:07.60",
+            "00:07.80"
+          ]
+        },
+        {
+          "action": "examining component",
+          "score": 85,
+          "keywords": [
+            "inspecting",
+            "holding part",
+            "studying",
+            "examining",
+            "separated"
+          ],
+          "evidence": "The person holds up and inspects individual parts such as a red gear before placing them back or attempting to reattach them, indicating close visual analysis.",
+          "timestamps": [
+            "00:03.00",
+            "00:03.20",
+            "00:03.40",
+            "00:03.60",
+            "00:03.80",
+            "00:04.00",
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00",
+            "00:05.20",
+            "00:05.40",
+            "00:05.60",
+            "00:05.80",
+            "00:06.00",
+            "00:07.40",
+            "00:07.60"
+          ]
+        },
+        {
+          "action": "placing parts on table",
+          "score": 85,
+          "keywords": [
+            "table",
+            "components",
+            "arranging",
+            "disassembly"
+          ],
+          "evidence": "The person systematically lays down separated pieces onto the black table surface, indicating an organized disassembly process.",
+          "timestamps": [
+            "00:07.60",
+            "00:07.80"
+          ]
+        },
+        {
+          "action": "reaching for part",
+          "score": 80,
+          "keywords": [
+            "hand",
+            "reach",
+            "component",
+            "table"
+          ],
+          "evidence": "In frame 7, the person reaches toward a red gear on the table, indicating an intention to pick it up or reposition it.",
+          "timestamps": [
+            "00:07.80"
+          ]
+        }
+      ]
+    }
+  }
+}

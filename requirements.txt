@@ -7,4 +7,4 @@ opencv-python
 Pillow
 safetensors
 huggingface_hub
-python make_videos.py --input run_20260817_153735/cam1/color --fps 30
+# python make_videos.py --input run_20260817_153735/cam1/color --fps 30

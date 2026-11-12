@@ -1,0 +1,1128 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_assemble_top_10_25",
+  "mode": "fixed",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:04.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a gear mechanism on a black surface. They are connecting various colored gears and a central white component, adjusting their positions and orientations. The person's hands are actively manipulating the parts, attempting to correctly mesh the gears together, with a focus on proper alignment and connection.\",\n    \"action_matches\": [\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 80,\n            \"keywords\": [\"turning gears\", \"adjusting\", \"connecting\"],\n            \"evidence\": \"The person is actively rotating and positioning gears to ensure they mesh correctly with the central white component and other gears.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 90,\n            \"keywords\": [\"positioning\", \"aligning\", \"adjusting orientation\"],\n            \"evidence\": \"The person's hands are constantly adjusting the position and orientation of the gears and central component to achieve proper meshing.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"pairing - correct combo\",\n            \"score\": 70,\n            \"keywords\": [\"correct pairing\", \"meshing gears\", \"connecting gears\"],\n            \"evidence\": \"The person is attempting to connect gears in a way that allows them to mesh properly with the central component, indicating a correct pairing attempt.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a gear mechanism on a black surface. They are connecting various colored gears and a central white component, adjusting their positions and orientations. The person's hands are actively manipulating the parts, attempting to correctly mesh the gears together, with a focus on proper alignment and connection.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 70,
+            "keywords": [
+              "correct pairing",
+              "meshing gears",
+              "connecting gears"
+            ],
+            "evidence": "The person is attempting to connect gears in a way that allows them to mesh properly with the central component, indicating a correct pairing attempt.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 90,
+            "keywords": [
+              "positioning",
+              "aligning",
+              "adjusting orientation"
+            ],
+            "evidence": "The person's hands are constantly adjusting the position and orientation of the gears and central component to achieve proper meshing.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 80,
+            "keywords": [
+              "turning gears",
+              "adjusting",
+              "connecting"
+            ],
+            "evidence": "The person is actively rotating and positioning gears to ensure they mesh correctly with the central white component and other gears.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:04.00",
+      "end_time": "00:08.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or testing a mechanical gear system on a black surface. They handle various colored gears and components, attempting to connect them. The person picks up a red gear and tries to mesh it with other parts, adjusting its position multiple times. Two small yellow gears are visible nearby, suggesting they may be part of the assembly or for testing purposes.\",\n    \"action_matches\": [\n        {\n            \"action\": \"Meshing gears - correct\",\n            \"score\": 75,\n            \"keywords\": [],\n            \"evidence\": \"The person repeatedly attempts to connect the red gear with the central gear assembly, adjusting its position to achieve proper meshing.\",\n            \"frame_indices\": [2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 80,\n            \"keywords\": [],\n            \"evidence\": \"The person manipulates the red gear and central assembly, rotating them to test if they mesh correctly and function as intended.\",\n            \"frame_indices\": [2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"rotating\",\n            \"score\": 90,\n            \"keywords\": [],\n            \"evidence\": \"The person actively rotates the red gear and the central gear assembly to test their interaction and alignment.\",\n            \"frame_indices\": [2, 3, 4, 5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or testing a mechanical gear system on a black surface. They handle various colored gears and components, attempting to connect them. The person picks up a red gear and tries to mesh it with other parts, adjusting its position multiple times. Two small yellow gears are visible nearby, suggesting they may be part of the assembly or for testing purposes.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 75,
+            "keywords": [],
+            "evidence": "The person repeatedly attempts to connect the red gear with the central gear assembly, adjusting its position to achieve proper meshing.",
+            "timestamps": [
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 80,
+            "keywords": [],
+            "evidence": "The person manipulates the red gear and central assembly, rotating them to test if they mesh correctly and function as intended.",
+            "timestamps": [
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 90,
+            "keywords": [],
+            "evidence": "The person actively rotates the red gear and the central gear assembly to test their interaction and alignment.",
+            "timestamps": [
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 3,
+      "start_time": "00:08.00",
+      "end_time": "00:12.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical gear system on a black surface. They pick up a red gear and attempt to attach it to a central axle with other gears. The person carefully positions the red gear, trying to mesh it correctly with the existing components, adjusting its orientation to ensure proper alignment and connection.\",\n    \"action_matches\": [\n        {\n            \"action\": \"Meshing gears - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person successfully attaches the red gear to the central axle, aligning it to mesh properly with the other gears.\",\n            \"frame_indices\": [4, 5, 6, 7]\n        },\n        {\n            \"action\": \"Orientation of the part - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The red gear is positioned correctly to mesh with the central axle and other gears, indicating correct orientation.\",\n            \"frame_indices\": [4, 5, 6, 7]\n        },\n        {\n            \"action\": \"Correct pair & orientation\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The red gear is correctly paired with the central axle and oriented to mesh properly with the other gears.\",\n            \"frame_indices\": [4, 5, 6, 7]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person rotates the red gear to test its connection and ensure it meshes correctly with the other gears.\",\n            \"frame_indices\": [5, 6, 7]\n        },\n        {\n            \"action\": \"rotating\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"The person rotates the red gear to test its connection and ensure it meshes correctly with the other gears.\",\n            \"frame_indices\": [5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical gear system on a black surface. They pick up a red gear and attempt to attach it to a central axle with other gears. The person carefully positions the red gear, trying to mesh it correctly with the existing components, adjusting its orientation to ensure proper alignment and connection.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person successfully attaches the red gear to the central axle, aligning it to mesh properly with the other gears.",
+            "timestamps": [
+              "00:10.00",
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The red gear is positioned correctly to mesh with the central axle and other gears, indicating correct orientation.",
+            "timestamps": [
+              "00:10.00",
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The red gear is correctly paired with the central axle and oriented to mesh properly with the other gears.",
+            "timestamps": [
+              "00:10.00",
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person rotates the red gear to test its connection and ensure it meshes correctly with the other gears.",
+            "timestamps": [
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 100,
+            "keywords": [],
+            "evidence": "The person rotates the red gear to test its connection and ensure it meshes correctly with the other gears.",
+            "timestamps": [
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 4,
+      "start_time": "00:12.00",
+      "end_time": "00:14.60",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a mechanical model with gears and a red wheel on a black surface. Their hands manipulate the components, particularly focusing on fitting the red wheel onto an axle and aligning it with other gears. The person appears to be testing the connection and movement of the parts, ensuring proper meshing and orientation.\",\n    \"action_matches\": [\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 100,\n            \"keywords\": [\"testing\", \"turning gears\", \"adjusting\", \"manipulating\"],\n            \"evidence\": \"The person's hands are actively rotating and adjusting the red wheel and connected gears, indicating a test of movement and fit.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5]\n        },\n        {\n            \"action\": \"rotating\",\n            \"score\": 100,\n            \"keywords\": [\"rotating\", \"turning\", \"adjusting\"],\n            \"evidence\": \"The person continuously rotates the red wheel and interacts with the gears, suggesting an ongoing adjustment or test of rotation.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5]\n        },\n        {\n            \"action\": \"Orientation of the part - correct\",\n            \"score\": 80,\n            \"keywords\": [\"correct orientation\", \"aligning\", \"fitting\"],\n            \"evidence\": \"The person carefully positions the red wheel onto the axle and aligns it with the gears, indicating an attempt to achieve correct orientation for proper meshing.\",\n            \"frame_indices\": [1, 2, 3, 4, 5]\n        },\n        {\n            \"action\": \"Correct pair & orientation\",\n            \"score\": 70,\n            \"keywords\": [\"correct pair\", \"correct orientation\", \"meshing\"],\n            \"evidence\": \"The person is fitting the red wheel onto the axle and aligning it with the gears, suggesting they are trying to achieve a correct pair and orientation for functional meshing.\",\n            \"frame_indices\": [1, 2, 3, 4, 5]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a mechanical model with gears and a red wheel on a black surface. Their hands manipulate the components, particularly focusing on fitting the red wheel onto an axle and aligning it with other gears. The person appears to be testing the connection and movement of the parts, ensuring proper meshing and orientation.",
+        "action_matches": [
+          {
+            "action": "Meshing gears - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Meshing gears - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Stopper magnet - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Axle and gear magnets - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Grey plate and red gear - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Look at the components - includes rotations, looking, search",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - correct",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "mount - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - correct combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "pairing - incorrect combo",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Orientation of the part - correct",
+            "score": 80,
+            "keywords": [
+              "correct orientation",
+              "aligning",
+              "fitting"
+            ],
+            "evidence": "The person carefully positions the red wheel onto the axle and aligns it with the gears, indicating an attempt to achieve correct orientation for proper meshing.",
+            "timestamps": [
+              "00:12.50",
+              "00:13.00",
+              "00:13.50",
+              "00:14.00",
+              "00:14.50"
+            ]
+          },
+          {
+            "action": "Orientation of the part - incorrect",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "disassembling",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & orientation",
+            "score": 70,
+            "keywords": [
+              "correct pair",
+              "correct orientation",
+              "meshing"
+            ],
+            "evidence": "The person is fitting the red wheel onto the axle and aligning it with the gears, suggesting they are trying to achieve a correct pair and orientation for functional meshing.",
+            "timestamps": [
+              "00:12.50",
+              "00:13.00",
+              "00:13.50",
+              "00:14.00",
+              "00:14.50"
+            ]
+          },
+          {
+            "action": "Incorrect pair & correct orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Correct pair & incorrect orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "Incorrect pair & orientation",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "orienting",
+            "score": 0,
+            "keywords": [],
+            "evidence": "",
+            "timestamps": []
+          },
+          {
+            "action": "testing - includes turning gears",
+            "score": 100,
+            "keywords": [
+              "testing",
+              "turning gears",
+              "adjusting",
+              "manipulating"
+            ],
+            "evidence": "The person's hands are actively rotating and adjusting the red wheel and connected gears, indicating a test of movement and fit.",
+            "timestamps": [
+              "00:12.00",
+              "00:12.50",
+              "00:13.00",
+              "00:13.50",
+              "00:14.00",
+              "00:14.50"
+            ]
+          },
+          {
+            "action": "rotating",
+            "score": 100,
+            "keywords": [
+              "rotating",
+              "turning",
+              "adjusting"
+            ],
+            "evidence": "The person continuously rotates the red wheel and interacts with the gears, suggesting an ongoing adjustment or test of rotation.",
+            "timestamps": [
+              "00:12.00",
+              "00:12.50",
+              "00:13.00",
+              "00:13.50",
+              "00:14.00",
+              "00:14.50"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a mechanical gear system on a black surface, carefully connecting colored gears to a central white component and axle. They repeatedly orient, adjust, and test each gear’s alignment and meshing, ensuring correct pairing and orientation. The red gear is successfully attached and rotated to confirm functional integration, followed by fine-tuning of a red wheel onto the axle. Throughout, the person’s hands are actively manipulating components, rotating them to verify proper movement and connection. The process is iterative and precise, emphasizing correct pairings and orientations, with no signs of disassembly or incorrect configurations. The final assembly appears stable and functional, validated through continuous testing and rotation.\",\n    \"action_matches\": [\n        {\n            \"action\": \"Meshing gears - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"Red gear successfully attached and meshed with central axle; red wheel aligned and tested for meshing.\",\n            \"timestamps\": [\n                \"00:10.00\",\n                \"00:10.50\",\n                \"00:11.00\",\n                \"00:11.50\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        },\n        {\n            \"action\": \"Meshing gears - incorrect\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No evidence of incorrect meshing observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Stopper magnet - correct\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No stopper magnets or related components observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Stopper magnet - incorrect\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No stopper magnets or related components observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Axle and gear magnets - correct\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No magnetic components or axle-gear magnet interactions observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Axle and gear magnets - incorrect\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No magnetic components or axle-gear magnet interactions observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Grey plate and red gear - correct\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No grey plate observed in the video.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Grey plate and red gear - incorrect\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No grey plate observed in the video.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Look at the components - includes rotations, looking, search\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No explicit looking or searching behavior observed; actions are focused on manipulation.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"mount - correct\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No explicit mounting action or terminology observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"mount - incorrect\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No explicit mounting action or terminology observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"pairing - correct combo\",\n            \"score\": 100,\n            \"keywords\": [\n                \"correct pairing\",\n                \"meshing gears\",\n                \"connecting gears\"\n            ],\n            \"evidence\": \"Repeated successful pairing of gears with central component and red gear with axle.\",\n            \"timestamps\": [\n                \"00:00.00\",\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\",\n                \"00:10.00\",\n                \"00:10.50\",\n                \"00:11.00\",\n                \"00:11.50\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        },\n        {\n            \"action\": \"pairing - incorrect combo\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No evidence of incorrect pairing observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Orientation of the part - correct\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"Red gear and red wheel consistently positioned correctly for meshing with axle and gears.\",\n            \"timestamps\": [\n                \"00:10.00\",\n                \"00:10.50\",\n                \"00:11.00\",\n                \"00:11.50\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        },\n        {\n            \"action\": \"Orientation of the part - incorrect\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No evidence of incorrect orientation observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"disassembling\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No disassembly or removal of components observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Correct pair & orientation\",\n            \"score\": 100,\n            \"keywords\": [],\n            \"evidence\": \"Red gear and red wheel consistently paired correctly and oriented for meshing.\",\n            \"timestamps\": [\n                \"00:10.00\",\n                \"00:10.50\",\n                \"00:11.00\",\n                \"00:11.50\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        },\n        {\n            \"action\": \"Incorrect pair & correct orientation\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No evidence of incorrect pairing with correct orientation observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Correct pair & incorrect orientation\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No evidence of correct pairing with incorrect orientation observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"Incorrect pair & orientation\",\n            \"score\": 0,\n            \"keywords\": [],\n            \"evidence\": \"No evidence of incorrect pairing or orientation observed.\",\n            \"timestamps\": []\n        },\n        {\n            \"action\": \"orienting\",\n            \"score\": 90,\n            \"keywords\": [\n                \"positioning\",\n                \"aligning\",\n                \"adjusting orientation\"\n            ],\n            \"evidence\": \"Hands constantly adjust gear positions and orientations for proper meshing.\",\n            \"timestamps\": [\n                \"00:00.00\",\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        },\n        {\n            \"action\": \"testing - includes turning gears\",\n            \"score\": 100,\n            \"keywords\": [\n                \"turning gears\",\n                \"adjusting\",\n                \"connecting\"\n            ],\n            \"evidence\": \"Continuous rotation and adjustment of gears to test meshing and functionality.\",\n            \"timestamps\": [\n                \"00:00.00\",\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\",\n                \"00:10.50\",\n                \"00:11.00\",\n                \"00:11.50\",\n                \"00:12.00\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        },\n        {\n            \"action\": \"rotating\",\n            \"score\": 100,\n            \"keywords\": [\n                \"rotating\",\n                \"turning\",\n                \"adjusting\"\n            ],\n            \"evidence\": \"Continuous rotation of gears and red wheel to test fit and movement.\",\n            \"timestamps\": [\n                \"00:00.00\",\n                \"00:00.50\",\n                \"00:01.00\",\n                \"00:01.50\",\n                \"00:02.00\",\n                \"00:02.50\",\n                \"00:03.00\",\n                \"00:03.50\",\n                \"00:05.00\",\n                \"00:05.50\",\n                \"00:06.00\",\n                \"00:06.50\",\n                \"00:07.00\",\n                \"00:07.50\",\n                \"00:10.50\",\n                \"00:11.00\",\n                \"00:11.50\",\n                \"00:12.00\",\n                \"00:12.50\",\n                \"00:13.00\",\n                \"00:13.50\",\n                \"00:14.00\",\n                \"00:14.50\"\n            ]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a mechanical gear system on a black surface, carefully connecting colored gears to a central white component and axle. They repeatedly orient, adjust, and test each gear’s alignment and meshing, ensuring correct pairing and orientation. The red gear is successfully attached and rotated to confirm functional integration, followed by fine-tuning of a red wheel onto the axle. Throughout, the person’s hands are actively manipulating components, rotating them to verify proper movement and connection. The process is iterative and precise, emphasizing correct pairings and orientations, with no signs of disassembly or incorrect configurations. The final assembly appears stable and functional, validated through continuous testing and rotation.",
+      "action_matches": [
+        {
+          "action": "Meshing gears - correct",
+          "score": 100,
+          "keywords": [],
+          "evidence": "Red gear successfully attached and meshed with central axle; red wheel aligned and tested for meshing.",
+          "timestamps": [
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "Meshing gears - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No evidence of incorrect meshing observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Stopper magnet - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No stopper magnets or related components observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Stopper magnet - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No stopper magnets or related components observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Axle and gear magnets - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No magnetic components or axle-gear magnet interactions observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Axle and gear magnets - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No magnetic components or axle-gear magnet interactions observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Grey plate and red gear - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No grey plate observed in the video.",
+          "timestamps": []
+        },
+        {
+          "action": "Grey plate and red gear - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No grey plate observed in the video.",
+          "timestamps": []
+        },
+        {
+          "action": "Look at the components - includes rotations, looking, search",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No explicit looking or searching behavior observed; actions are focused on manipulation.",
+          "timestamps": []
+        },
+        {
+          "action": "mount - correct",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No explicit mounting action or terminology observed.",
+          "timestamps": []
+        },
+        {
+          "action": "mount - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No explicit mounting action or terminology observed.",
+          "timestamps": []
+        },
+        {
+          "action": "pairing - correct combo",
+          "score": 100,
+          "keywords": [
+            "correct pairing",
+            "meshing gears",
+            "connecting gears"
+          ],
+          "evidence": "Repeated successful pairing of gears with central component and red gear with axle.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50",
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "pairing - incorrect combo",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No evidence of incorrect pairing observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Orientation of the part - correct",
+          "score": 100,
+          "keywords": [],
+          "evidence": "Red gear and red wheel consistently positioned correctly for meshing with axle and gears.",
+          "timestamps": [
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "Orientation of the part - incorrect",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No evidence of incorrect orientation observed.",
+          "timestamps": []
+        },
+        {
+          "action": "disassembling",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No disassembly or removal of components observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Correct pair & orientation",
+          "score": 100,
+          "keywords": [],
+          "evidence": "Red gear and red wheel consistently paired correctly and oriented for meshing.",
+          "timestamps": [
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "Incorrect pair & correct orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No evidence of incorrect pairing with correct orientation observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Correct pair & incorrect orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No evidence of correct pairing with incorrect orientation observed.",
+          "timestamps": []
+        },
+        {
+          "action": "Incorrect pair & orientation",
+          "score": 0,
+          "keywords": [],
+          "evidence": "No evidence of incorrect pairing or orientation observed.",
+          "timestamps": []
+        },
+        {
+          "action": "orienting",
+          "score": 90,
+          "keywords": [
+            "positioning",
+            "aligning",
+            "adjusting orientation"
+          ],
+          "evidence": "Hands constantly adjust gear positions and orientations for proper meshing.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "testing - includes turning gears",
+          "score": 100,
+          "keywords": [
+            "turning gears",
+            "adjusting",
+            "connecting"
+          ],
+          "evidence": "Continuous rotation and adjustment of gears to test meshing and functionality.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50",
+            "00:12.00",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "rotating",
+          "score": 100,
+          "keywords": [
+            "rotating",
+            "turning",
+            "adjusting"
+          ],
+          "evidence": "Continuous rotation of gears and red wheel to test fit and movement.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50",
+            "00:12.00",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        }
+      ]
+    }
+  }
+}

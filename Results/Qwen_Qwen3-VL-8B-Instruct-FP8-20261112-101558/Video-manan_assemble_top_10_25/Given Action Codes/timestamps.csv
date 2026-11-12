@@ -1,0 +1,112 @@
+video_name,timestamp,action_code,mode,score,evidence,keywords
+manan_assemble_top_10_25,00:03.00,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:04.20,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:04.40,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:04.60,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:04.80,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:05.00,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:05.20,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:05.40,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:05.60,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:05.80,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:06.00,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:10.60,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:10.80,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:11.00,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:11.20,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:11.40,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:11.60,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:11.80,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:12.00,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:12.20,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,00:12.40,Meshing gears - correct,fixed,100,"Gears are successfully connected and rotate together, verified through multiple test rotations across all chunks.",gears; meshing; correct; turning; testing
+manan_assemble_top_10_25,,Meshing gears - incorrect,fixed,0,,
+manan_assemble_top_10_25,,Stopper magnet - correct,fixed,0,,
+manan_assemble_top_10_25,,Stopper magnet - incorrect,fixed,0,,
+manan_assemble_top_10_25,,Axle and gear magnets - correct,fixed,0,,
+manan_assemble_top_10_25,,Axle and gear magnets - incorrect,fixed,0,,
+manan_assemble_top_10_25,,Grey plate and red gear - correct,fixed,0,,
+manan_assemble_top_10_25,,Grey plate and red gear - incorrect,fixed,0,,
+manan_assemble_top_10_25,,"Look at the components - includes rotations, looking, search",fixed,0,,
+manan_assemble_top_10_25,00:12.80,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:13.00,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:13.20,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:13.40,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:13.60,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:13.80,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:14.00,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:14.20,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:14.40,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:14.60,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,00:14.80,mount - correct,fixed,70,"The person attempts to mount a red gear onto an axle or central structure, adjusting its position for proper connection.",mounting gear; connecting gear; positioning
+manan_assemble_top_10_25,,mount - incorrect,fixed,0,,
+manan_assemble_top_10_25,,pairing - correct combo,fixed,0,,
+manan_assemble_top_10_25,,pairing - incorrect combo,fixed,0,,
+manan_assemble_top_10_25,,Orientation of the part - correct,fixed,0,,
+manan_assemble_top_10_25,,Orientation of the part - incorrect,fixed,0,,
+manan_assemble_top_10_25,,disassembling,fixed,0,,
+manan_assemble_top_10_25,,Correct pair & orientation,fixed,0,,
+manan_assemble_top_10_25,,Incorrect pair & correct orientation,fixed,0,,
+manan_assemble_top_10_25,,Correct pair & incorrect orientation,fixed,0,,
+manan_assemble_top_10_25,,Incorrect pair & orientation,fixed,0,,
+manan_assemble_top_10_25,,orienting,fixed,0,,
+manan_assemble_top_10_25,00:04.40,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:04.60,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:04.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:05.00,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:05.20,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:05.40,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:05.60,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:05.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:06.00,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:10.60,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:10.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:11.00,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:11.20,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:11.40,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:11.60,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:11.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:12.00,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:12.20,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:12.40,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:12.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:13.00,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:13.20,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:13.40,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:13.60,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:13.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:14.00,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:14.20,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:14.40,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:14.60,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:14.80,testing - includes turning gears,fixed,100,"The person repeatedly rotates gears to test functionality across all chunks, confirming correct meshing and movement.",testing; turning; gears; manipulating; interaction
+manan_assemble_top_10_25,00:04.40,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:04.60,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:04.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:05.00,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:05.20,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:05.40,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:05.60,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:05.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:06.00,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:10.60,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:10.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:11.00,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:11.20,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:11.40,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:11.60,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:11.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:12.00,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:12.20,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:12.40,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:12.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:13.00,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:13.20,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:13.40,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:13.60,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:13.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:14.00,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:14.20,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:14.40,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:14.60,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating
+manan_assemble_top_10_25,00:14.80,rotating,fixed,100,Continuous rotation of gears is observed throughout the video as part of assembly and testing.,rotating; gears; testing; manipulating

@@ -1,0 +1,375 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_assemble_top_30_40",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:06.40",
+      "raw_response": "{\n    \"descriptor\": \"A person assembles a small mechanical device using colorful plastic gears and connectors on a black surface. They methodically attach components, including a red gear, green pieces, and a yellow gear, to form a functional gear train. The process involves careful alignment and connection of parts to ensure proper meshing and movement.\",\n    \"action_matches\": [\n        {\n            \"action\": \"placing green gear on connector\",\n            \"score\": 95,\n            \"keywords\": [\"green gear\", \"connector\", \"placing\"],\n            \"evidence\": \"The person carefully positions a green gear onto a gray connector piece, aligning it for assembly.\",\n            \"frame_indices\": [3, 4, 5, 6, 7, 8, 9, 10]\n        },\n        {\n            \"action\": \"attaching red gear to assembly\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"attaching\", \"assembly\"],\n            \"evidence\": \"The person connects the red gear to the green gear and connector, forming a linked gear train.\",\n            \"frame_indices\": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]\n        },\n        {\n            \"action\": \"connecting yellow gear to assembly\",\n            \"score\": 85,\n            \"keywords\": [\"yellow gear\", \"connecting\", \"assembly\"],\n            \"evidence\": \"The person picks up the yellow gear and attaches it to the top of the green gear, completing the gear train.\",\n            \"frame_indices\": [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]\n        },\n        {\n            \"action\": \"adjusting gear alignment\",\n            \"score\": 80,\n            \"keywords\": [\"adjusting\", \"alignment\", \"gears",
+      "parsed_response": {
+        "descriptor": "A person assembles a small mechanical device using colorful plastic gears and connectors on a black surface. They methodically attach components, including a red gear, green pieces, and a yellow gear, to form a functional gear train. The process involves careful alignment and connection of parts to ensure proper meshing and movement.",
+        "action_matches": [
+          {
+            "action": "placing green gear on connector",
+            "score": 95,
+            "keywords": [
+              "green gear",
+              "connector",
+              "placing"
+            ],
+            "evidence": "The person carefully positions a green gear onto a gray connector piece, aligning it for assembly.",
+            "timestamps": [
+              "00:00.60",
+              "00:00.80",
+              "00:01.00",
+              "00:01.20",
+              "00:01.40",
+              "00:01.60",
+              "00:01.80",
+              "00:02.00"
+            ]
+          },
+          {
+            "action": "attaching red gear to assembly",
+            "score": 90,
+            "keywords": [
+              "red gear",
+              "attaching",
+              "assembly"
+            ],
+            "evidence": "The person connects the red gear to the green gear and connector, forming a linked gear train.",
+            "timestamps": [
+              "00:02.00",
+              "00:02.20",
+              "00:02.40",
+              "00:02.60",
+              "00:02.80",
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00"
+            ]
+          },
+          {
+            "action": "connecting yellow gear to assembly",
+            "score": 85,
+            "keywords": [
+              "yellow gear",
+              "connecting",
+              "assembly"
+            ],
+            "evidence": "The person picks up the yellow gear and attaches it to the top of the green gear, completing the gear train.",
+            "timestamps": [
+              "00:02.40",
+              "00:02.60",
+              "00:02.80",
+              "00:03.00",
+              "00:03.20",
+              "00:03.40",
+              "00:03.60",
+              "00:03.80",
+              "00:04.00",
+              "00:04.20",
+              "00:04.40",
+              "00:04.60",
+              "00:04.80",
+              "00:05.00",
+              "00:05.20",
+              "00:05.40",
+              "00:05.60",
+              "00:05.80",
+              "00:06.00"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:06.40",
+      "end_time": "00:09.90",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a small mechanical device on a black surface. They hold a red base component in one hand and methodically attach various small parts, including gears and connectors, using their other hand. The process involves precise alignment and fitting of components, suggesting the construction of a custom-built mechanism or toy.\",\n    \"action_matches\": [\n        {\n            \"action\": \"holding red base\",\n            \"score\": 95,\n            \"keywords\": [\"red\", \"base\", \"hold\", \"hand\"],\n            \"evidence\": \"The person consistently holds the red circular base with their left hand throughout the sequence, providing stability while assembling other parts.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\n        },\n        {\n            \"action\": \"attaching small parts\",\n            \"score\": 90,\n            \"keywords\": [\"attach\", \"parts\", \"small\", \"components\", \"assemble\"],\n            \"evidence\": \"The person uses their right hand to pick up and connect various small mechanical components to the red base, indicating an assembly process.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]\n        },\n        {\n            \"action\": \"aligning gear\",\n            \"score\": 85,\n            \"keywords\": [\"align\", \"gear\", \"position\", \"fit\"],\n            \"evidence\": \"The person carefully positions a small gear onto the red base, making fine adjustments to ensure proper alignment before securing it.\",\n            \"frame_indices\": [10, 11, 12, 13, 14, 15, 16, 17]\n        },\n        {\n            \"action\": \"connecting components\",\n            \"score\": 80,\n            \"keywords\": [\"connect\", \"components\", \"attach\", \"join\"],\n            \"evidence\": \"The person connects a small gray component to the red base,",
+      "parsed_response": {
+        "descriptor": "A person is assembling a small mechanical device on a black surface. They hold a red base component in one hand and methodically attach various small parts, including gears and connectors, using their other hand. The process involves precise alignment and fitting of components, suggesting the construction of a custom-built mechanism or toy.",
+        "action_matches": [
+          {
+            "action": "holding red base",
+            "score": 95,
+            "keywords": [
+              "red",
+              "base",
+              "hold",
+              "hand"
+            ],
+            "evidence": "The person consistently holds the red circular base with their left hand throughout the sequence, providing stability while assembling other parts.",
+            "timestamps": [
+              "00:06.40",
+              "00:06.60",
+              "00:06.80",
+              "00:07.00",
+              "00:07.20",
+              "00:07.40",
+              "00:07.60",
+              "00:07.80",
+              "00:08.00",
+              "00:08.20",
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60",
+              "00:09.80"
+            ]
+          },
+          {
+            "action": "attaching small parts",
+            "score": 90,
+            "keywords": [
+              "attach",
+              "parts",
+              "small",
+              "components",
+              "assemble"
+            ],
+            "evidence": "The person uses their right hand to pick up and connect various small mechanical components to the red base, indicating an assembly process.",
+            "timestamps": [
+              "00:06.40",
+              "00:06.60",
+              "00:06.80",
+              "00:07.00",
+              "00:07.20",
+              "00:07.40",
+              "00:07.60",
+              "00:07.80",
+              "00:08.00",
+              "00:08.20",
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60",
+              "00:09.80"
+            ]
+          },
+          {
+            "action": "aligning gear",
+            "score": 85,
+            "keywords": [
+              "align",
+              "gear",
+              "position",
+              "fit"
+            ],
+            "evidence": "The person carefully positions a small gear onto the red base, making fine adjustments to ensure proper alignment before securing it.",
+            "timestamps": [
+              "00:08.40",
+              "00:08.60",
+              "00:08.80",
+              "00:09.00",
+              "00:09.20",
+              "00:09.40",
+              "00:09.60",
+              "00:09.80"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a small mechanical device on a black surface, beginning by attaching a green gear to a connector and progressively linking it with a red gear and a yellow gear to form a functional gear train. They then transition to securing the assembly onto a red circular base, holding it steady with one hand while precisely attaching and aligning additional small components with the other. The entire process demonstrates careful, deliberate construction, emphasizing alignment and connection to ensure proper meshing and movement of the mechanical parts, suggesting the creation of a custom-built gear-based mechanism or toy.\",\n    \"action_matches\": [\n        {\n            \"action\": \"placing green gear on connector\",\n            \"score\": 95,\n            \"keywords\": [\"green gear\", \"connector\", \"placing\"],\n            \"evidence\": \"The person carefully positions a green gear onto a gray connector piece, aligning it for assembly.\",\n            \"timestamps\": [\"00:00.60\", \"00:00.80\", \"00:01.00\", \"00:01.20\", \"00:01.40\", \"00:01.60\", \"00:01.80\", \"00:02.00\"]\n        },\n        {\n            \"action\": \"attaching red gear to assembly\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"attaching\", \"assembly\"],\n            \"evidence\": \"The person connects the red gear to the green gear and connector, forming a linked gear train.\",\n            \"timestamps\": [\"00:02.00\", \"00:02.20\", \"00:02.40\", \"00:02.60\", \"00:02.80\", \"00:03.00\", \"00:03.20\", \"00:03.40\", \"00:03.60\", \"00:03.80\", \"00:04.00\", \"00:04.20\", \"00:04.40\", \"00:04.60\", \"00:04.80\", \"00:05.00\", \"00:05.20\", \"00:05.40\", \"00:05.60\", \"00:05.80\", \"00:06.00\"]\n        },\n        {\n            \"action\": \"connecting yellow gear to assembly\",\n            \"score\": 85,\n            \"keywords\": [\"yellow gear\", \"connecting\", \"assembly\"],\n            \"evidence\": \"The person picks up the yellow gear and attaches it to the top of the green gear, completing the gear train.\",\n            \"timestamps\": [\"00:02.40\", \"00:02.60\", \"00:02.80\", \"00:03.00\", \"00:03.20\", \"00:03.40\", \"00:03.60\", \"00:03.80\", \"00:04.00\", \"00:04.20\", \"00:04.40\", \"00:04.60\", \"00:04.80\", \"00:05.00\", \"00:05.20\", \"00:05.40\", \"00:05.60\", \"00:05.80\", \"00:06.00\"]\n        },\n        {\n            \"action\": \"holding red base\",\n            \"score\": 95,\n            \"keywords\": [\"red\", \"base\", \"hold\", \"hand\"],\n            \"evidence\": \"The person consistently holds the red circular base with their left hand throughout the sequence, providing stability while assembling other parts.\",\n            \"timestamps\": [\"00:06.40\", \"00:06.60\", \"00:06.80\", \"00:07.00\", \"00:07.20\", \"00:07.40\", \"00:07.60\", \"00:07.80\", \"00:08.00\", \"00:08.20\", \"00:08.40\", \"00:08.60\", \"00:08.80\", \"00:09.00\", \"00:09.20\", \"00:09.40\", \"00:09.60\", \"00:09.80\"]\n        },\n        {\n            \"action\": \"attaching small parts\",\n            \"score\": 90,\n            \"keywords\": [\"attach\", \"parts\", \"small\", \"components\", \"assemble\"],\n            \"evidence\": \"The person uses their right hand to pick up and connect various small mechanical components to the red base, indicating an assembly process.\",\n            \"timestamps\": [\"00:06.40\", \"00:06.60\", \"00:06.80\", \"00:07.00\", \"00:07.20\", \"00:07.40\", \"00:07.60\", \"00:07.80\", \"00:08.00\", \"00:08.20\", \"00:08.40\", \"00:08.60\", \"00:08.80\", \"00:09.00\", \"00:09.20\", \"00:09.40\", \"00:09.60\", \"00:09.80\"]\n        },\n        {\n            \"action\": \"aligning gear\",\n            \"score\": 85,\n            \"keywords\": [\"align\", \"gear\", \"position\", \"fit\"],\n            \"evidence\": \"The person carefully positions a small gear onto the red base, making fine adjustments to ensure proper alignment before securing it.\",\n            \"timestamps\": [\"00:08.40\", \"00:08.60\", \"00:08.80\", \"00:09.00\", \"00:09.20\", \"00:09.40\", \"00:09.60\", \"00:09.80\"]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a small mechanical device on a black surface, beginning by attaching a green gear to a connector and progressively linking it with a red gear and a yellow gear to form a functional gear train. They then transition to securing the assembly onto a red circular base, holding it steady with one hand while precisely attaching and aligning additional small components with the other. The entire process demonstrates careful, deliberate construction, emphasizing alignment and connection to ensure proper meshing and movement of the mechanical parts, suggesting the creation of a custom-built gear-based mechanism or toy.",
+      "action_matches": [
+        {
+          "action": "placing green gear on connector",
+          "score": 95,
+          "keywords": [
+            "green gear",
+            "connector",
+            "placing"
+          ],
+          "evidence": "The person carefully positions a green gear onto a gray connector piece, aligning it for assembly.",
+          "timestamps": [
+            "00:00.60",
+            "00:00.80",
+            "00:01.00",
+            "00:01.20",
+            "00:01.40",
+            "00:01.60",
+            "00:01.80",
+            "00:02.00"
+          ]
+        },
+        {
+          "action": "attaching red gear to assembly",
+          "score": 90,
+          "keywords": [
+            "red gear",
+            "attaching",
+            "assembly"
+          ],
+          "evidence": "The person connects the red gear to the green gear and connector, forming a linked gear train.",
+          "timestamps": [
+            "00:02.00",
+            "00:02.20",
+            "00:02.40",
+            "00:02.60",
+            "00:02.80",
+            "00:03.00",
+            "00:03.20",
+            "00:03.40",
+            "00:03.60",
+            "00:03.80",
+            "00:04.00",
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00",
+            "00:05.20",
+            "00:05.40",
+            "00:05.60",
+            "00:05.80",
+            "00:06.00"
+          ]
+        },
+        {
+          "action": "connecting yellow gear to assembly",
+          "score": 85,
+          "keywords": [
+            "yellow gear",
+            "connecting",
+            "assembly"
+          ],
+          "evidence": "The person picks up the yellow gear and attaches it to the top of the green gear, completing the gear train.",
+          "timestamps": [
+            "00:02.40",
+            "00:02.60",
+            "00:02.80",
+            "00:03.00",
+            "00:03.20",
+            "00:03.40",
+            "00:03.60",
+            "00:03.80",
+            "00:04.00",
+            "00:04.20",
+            "00:04.40",
+            "00:04.60",
+            "00:04.80",
+            "00:05.00",
+            "00:05.20",
+            "00:05.40",
+            "00:05.60",
+            "00:05.80",
+            "00:06.00"
+          ]
+        },
+        {
+          "action": "holding red base",
+          "score": 95,
+          "keywords": [
+            "red",
+            "base",
+            "hold",
+            "hand"
+          ],
+          "evidence": "The person consistently holds the red circular base with their left hand throughout the sequence, providing stability while assembling other parts.",
+          "timestamps": [
+            "00:06.40",
+            "00:06.60",
+            "00:06.80",
+            "00:07.00",
+            "00:07.20",
+            "00:07.40",
+            "00:07.60",
+            "00:07.80",
+            "00:08.00",
+            "00:08.20",
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60",
+            "00:09.80"
+          ]
+        },
+        {
+          "action": "attaching small parts",
+          "score": 90,
+          "keywords": [
+            "attach",
+            "parts",
+            "small",
+            "components",
+            "assemble"
+          ],
+          "evidence": "The person uses their right hand to pick up and connect various small mechanical components to the red base, indicating an assembly process.",
+          "timestamps": [
+            "00:06.40",
+            "00:06.60",
+            "00:06.80",
+            "00:07.00",
+            "00:07.20",
+            "00:07.40",
+            "00:07.60",
+            "00:07.80",
+            "00:08.00",
+            "00:08.20",
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60",
+            "00:09.80"
+          ]
+        },
+        {
+          "action": "aligning gear",
+          "score": 85,
+          "keywords": [
+            "align",
+            "gear",
+            "position",
+            "fit"
+          ],
+          "evidence": "The person carefully positions a small gear onto the red base, making fine adjustments to ensure proper alignment before securing it.",
+          "timestamps": [
+            "00:08.40",
+            "00:08.60",
+            "00:08.80",
+            "00:09.00",
+            "00:09.20",
+            "00:09.40",
+            "00:09.60",
+            "00:09.80"
+          ]
+        }
+      ]
+    }
+  }
+}

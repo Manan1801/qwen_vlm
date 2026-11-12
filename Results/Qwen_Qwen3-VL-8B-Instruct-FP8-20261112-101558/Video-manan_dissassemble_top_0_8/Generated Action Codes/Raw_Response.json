@@ -1,0 +1,316 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_dissassemble_top_0_8",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:06.40",
+      "raw_response": "{\n    \"descriptor\": \"A person disassembles a small mechanical model on a dark surface, carefully removing components like gears and connectors. The model appears to be a gear-based assembly, possibly for educational or hobbyist purposes. The person methodically takes apart the structure, placing each piece on the table, suggesting a teardown or repair process.\",\n    \"action_matches\": [\n        {\"action\": \"disassembling mechanical model\", \"score\": 95, \"keywords\": [\"hands\", \"removing parts\", \"gears\", \"disconnecting\"], \"evidence\": \"The person uses both hands to systematically detach components from the central structure, placing them on the table.\", \"frame_indices\": [7, 10, 13, 15, 18, 21, 24, 27]},\n        {\"action\": \"removing green gear\", \"score\": 90, \"keywords\": [\"green gear\", \"detaching\", \"placing down\"], \"evidence\": \"The person detaches a green gear from the model and places it on the table.\", \"frame_indices\": [7, 10]},\n        {\"action\": \"removing red gear\", \"score\": 90, \"keywords\": [\"red gear\", \"detaching\", \"placing down\"], \"evidence\": \"The person detaches a red gear from the model and places it on the table.\", \"frame_indices\": [15, 18, 21]},\n        {\"action\": \"removing yellow gear\", \"score\": 85, \"keywords\": [\"yellow gear\", \"detaching\", \"placing down\"], \"evidence\": \"The person detaches a yellow gear from the model and places it on the table.\", \"frame_indices\": [24, 27]},\n        {\"action\": \"placing component on table\", \"score\": 95, \"keywords\": [\"placing down\", \"components\", \"table\"], \"evidence\": \"Multiple components are placed on the black surface as the model is disassembled.\", \"frame_indices\": [8, 11, 14, 17, 20, 23, 26]}\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person disassembles a small mechanical model on a dark surface, carefully removing components like gears and connectors. The model appears to be a gear-based assembly, possibly for educational or hobbyist purposes. The person methodically takes apart the structure, placing each piece on the table, suggesting a teardown or repair process.",
+        "action_matches": [
+          {
+            "action": "disassembling mechanical model",
+            "score": 95,
+            "keywords": [
+              "hands",
+              "removing parts",
+              "gears",
+              "disconnecting"
+            ],
+            "evidence": "The person uses both hands to systematically detach components from the central structure, placing them on the table.",
+            "timestamps": [
+              "00:01.40",
+              "00:02.00",
+              "00:02.60",
+              "00:03.00",
+              "00:03.60",
+              "00:04.20",
+              "00:04.80",
+              "00:05.40"
+            ]
+          },
+          {
+            "action": "removing green gear",
+            "score": 90,
+            "keywords": [
+              "green gear",
+              "detaching",
+              "placing down"
+            ],
+            "evidence": "The person detaches a green gear from the model and places it on the table.",
+            "timestamps": [
+              "00:01.40",
+              "00:02.00"
+            ]
+          },
+          {
+            "action": "removing red gear",
+            "score": 90,
+            "keywords": [
+              "red gear",
+              "detaching",
+              "placing down"
+            ],
+            "evidence": "The person detaches a red gear from the model and places it on the table.",
+            "timestamps": [
+              "00:03.00",
+              "00:03.60",
+              "00:04.20"
+            ]
+          },
+          {
+            "action": "removing yellow gear",
+            "score": 85,
+            "keywords": [
+              "yellow gear",
+              "detaching",
+              "placing down"
+            ],
+            "evidence": "The person detaches a yellow gear from the model and places it on the table.",
+            "timestamps": [
+              "00:04.80",
+              "00:05.40"
+            ]
+          },
+          {
+            "action": "placing component on table",
+            "score": 95,
+            "keywords": [
+              "placing down",
+              "components",
+              "table"
+            ],
+            "evidence": "Multiple components are placed on the black surface as the model is disassembled.",
+            "timestamps": [
+              "00:01.60",
+              "00:02.20",
+              "00:02.80",
+              "00:03.40",
+              "00:04.00",
+              "00:04.60",
+              "00:05.20"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:06.40",
+      "end_time": "00:07.90",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical model on a black mat, manipulating various colored plastic gears and connectors. They carefully pick up and position components, including a red gear, a white T-shaped piece, and a gray cylindrical part, gradually constructing a small gear train or robotic mechanism. The process involves precise hand movements and spatial arrangement of parts.\",\n    \"action_matches\": [\n        {\n            \"action\": \"assembling gear train\",\n            \"score\": 95,\n            \"keywords\": [\"gears\", \"connecting\", \"assembling\", \"mechanical\"],\n            \"evidence\": \"The person is methodically connecting various plastic gears and structural pieces to form a functional mechanical assembly.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"picking up red gear\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"lifting\", \"grabbing\"],\n            \"evidence\": \"In frame 7, the person lifts the large red gear with their right hand, separating it from the rest of the components.\",\n            \"frame_indices\": [7]\n        },\n        {\n            \"action\": \"holding white T-piece\",\n            \"score\": 85,\n            \"keywords\": [\"white piece\", \"T-shaped\", \"holding\"],\n            \"evidence\": \"In frame 7, the person is holding a white T-shaped structural piece in their left hand, preparing to integrate it into the assembly.\",\n            \"frame_indices\": [7]\n        },\n        {\n            \"action\": \"manipulating gray cylinder\",\n            \"score\": 80,\n            \"keywords\": [\"gray part\", \"cylindrical\", \"rotating\", \"adjusting\"],\n            \"evidence\": \"In frames 5 and 6, the person rotates and adjusts the gray cylindrical part, likely preparing it for connection to other components.\",\n            \"frame_indices\": [5, 6]\n        },\n        {\n            \"action\": \"repositioning components\",\n            \"score\": 85,\n            \"keywords\": [\"moving parts\", \"rearranging\", \"spatial adjustment\"],\n            \"evidence\": \"Throughout the frames, the person continuously moves and repositions various small parts on the black mat to find the correct configuration.\",\n            \"frame_indices\": [0, 1, ",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical model on a black mat, manipulating various colored plastic gears and connectors. They carefully pick up and position components, including a red gear, a white T-shaped piece, and a gray cylindrical part, gradually constructing a small gear train or robotic mechanism. The process involves precise hand movements and spatial arrangement of parts.",
+        "action_matches": [
+          {
+            "action": "assembling gear train",
+            "score": 95,
+            "keywords": [
+              "gears",
+              "connecting",
+              "assembling",
+              "mechanical"
+            ],
+            "evidence": "The person is methodically connecting various plastic gears and structural pieces to form a functional mechanical assembly.",
+            "timestamps": [
+              "00:06.40",
+              "00:06.60",
+              "00:06.80",
+              "00:07.00",
+              "00:07.20",
+              "00:07.40",
+              "00:07.60",
+              "00:07.80"
+            ]
+          },
+          {
+            "action": "picking up red gear",
+            "score": 90,
+            "keywords": [
+              "red gear",
+              "lifting",
+              "grabbing"
+            ],
+            "evidence": "In frame 7, the person lifts the large red gear with their right hand, separating it from the rest of the components.",
+            "timestamps": [
+              "00:07.80"
+            ]
+          },
+          {
+            "action": "holding white T-piece",
+            "score": 85,
+            "keywords": [
+              "white piece",
+              "T-shaped",
+              "holding"
+            ],
+            "evidence": "In frame 7, the person is holding a white T-shaped structural piece in their left hand, preparing to integrate it into the assembly.",
+            "timestamps": [
+              "00:07.80"
+            ]
+          },
+          {
+            "action": "manipulating gray cylinder",
+            "score": 80,
+            "keywords": [
+              "gray part",
+              "cylindrical",
+              "rotating",
+              "adjusting"
+            ],
+            "evidence": "In frames 5 and 6, the person rotates and adjusts the gray cylindrical part, likely preparing it for connection to other components.",
+            "timestamps": [
+              "00:07.40",
+              "00:07.60"
+            ]
+          }
+        ],
+        "parse_error": "Model returned incomplete JSON; recovered complete fields."
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically disassembles a small gear-based mechanical model on a dark surface, carefully removing and placing down colored components including green, red, and yellow gears. After completing the teardown, they transition to assembling a new mechanical structure, connecting gears and structural pieces like a white T-shaped component and a gray cylinder to form a functional gear train or robotic mechanism. The entire process demonstrates precision and deliberate hand movements, suggesting either a repair, educational teardown, or reassembly of a mechanical kit for demonstration or hobbyist purposes.\",\n    \"action_matches\": [\n        {\n            \"action\": \"disassembling mechanical model\",\n            \"score\": 95,\n            \"keywords\": [\"hands\", \"removing parts\", \"gears\", \"disconnecting\", \"placing down\", \"components\", \"table\"],\n            \"evidence\": \"The person uses both hands to systematically detach components from the central structure, placing them on the table.\",\n            \"timestamps\": [\"00:01.40\", \"00:02.00\", \"00:02.60\", \"00:03.00\", \"00:03.60\", \"00:04.20\", \"00:04.80\", \"00:05.40\"]\n        },\n        {\n            \"action\": \"assembling gear train\",\n            \"score\": 95,\n            \"keywords\": [\"gears\", \"connecting\", \"assembling\", \"mechanical\", \"picking up\", \"holding\", \"rotating\", \"adjusting\"],\n            \"evidence\": \"The person is methodically connecting various plastic gears and structural pieces to form a functional mechanical assembly.\",\n            \"timestamps\": [\"00:06.40\", \"00:06.60\", \"00:06.80\", \"00:07.00\", \"00:07.20\", \"00:07.40\", \"00:07.60\", \"00:07.80\"]\n        },\n        {\n            \"action\": \"removing green gear\",\n            \"score\": 90,\n            \"keywords\": [\"green gear\", \"detaching\", \"placing down\"],\n            \"evidence\": \"The person detaches a green gear from the model and places it on the table.\",\n            \"timestamps\": [\"00:01.40\", \"00:02.00\"]\n        },\n        {\n            \"action\": \"removing red gear\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"detaching\", \"placing down\"],\n            \"evidence\": \"The person detaches a red gear from the model and places it on the table.\",\n            \"timestamps\": [\"00:03.00\", \"00:03.60\", \"00:04.20\"]\n        },\n        {\n            \"action\": \"removing yellow gear\",\n            \"score\": 85,\n            \"keywords\": [\"yellow gear\", \"detaching\", \"placing down\"],\n            \"evidence\": \"The person detaches a yellow gear from the model and places it on the table.\",\n            \"timestamps\": [\"00:04.80\", \"00:05.40\"]\n        },\n        {\n            \"action\": \"picking up red gear\",\n            \"score\": 90,\n            \"keywords\": [\"red gear\", \"lifting\", \"grabbing\"],\n            \"evidence\": \"In frame 7, the person lifts the large red gear with their right hand, separating it from the rest of the components.\",\n            \"timestamps\": [\"00:07.80\"]\n        },\n        {\n            \"action\": \"holding white T-piece\",\n            \"score\": 85,\n            \"keywords\": [\"white piece\", \"T-shaped\", \"holding\"],\n            \"evidence\": \"In frame 7, the person is holding a white T-shaped structural piece in their left hand, preparing to integrate it into the assembly.\",\n            \"timestamps\": [\"00:07.80\"]\n        },\n        {\n            \"action\": \"manipulating gray cylinder\",\n            \"score\": 80,\n            \"keywords\": [\"gray part\", \"cylindrical\", \"rotating\", \"adjusting\"],\n            \"evidence\": \"In frames 5 and 6, the person rotates and adjusts the gray cylindrical part, likely preparing it for connection to other components.\",\n            \"timestamps\": [\"00:07.40\", \"00:07.60\"]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically disassembles a small gear-based mechanical model on a dark surface, carefully removing and placing down colored components including green, red, and yellow gears. After completing the teardown, they transition to assembling a new mechanical structure, connecting gears and structural pieces like a white T-shaped component and a gray cylinder to form a functional gear train or robotic mechanism. The entire process demonstrates precision and deliberate hand movements, suggesting either a repair, educational teardown, or reassembly of a mechanical kit for demonstration or hobbyist purposes.",
+      "action_matches": [
+        {
+          "action": "disassembling mechanical model",
+          "score": 95,
+          "keywords": [
+            "hands",
+            "removing parts",
+            "gears",
+            "disconnecting",
+            "placing down",
+            "components",
+            "table"
+          ],
+          "evidence": "The person uses both hands to systematically detach components from the central structure, placing them on the table.",
+          "timestamps": [
+            "00:01.40",
+            "00:02.00",
+            "00:02.60",
+            "00:03.00",
+            "00:03.60",
+            "00:04.20",
+            "00:04.80",
+            "00:05.40"
+          ]
+        },
+        {
+          "action": "assembling gear train",
+          "score": 95,
+          "keywords": [
+            "gears",
+            "connecting",
+            "assembling",
+            "mechanical",
+            "picking up",
+            "holding",
+            "rotating",
+            "adjusting"
+          ],
+          "evidence": "The person is methodically connecting various plastic gears and structural pieces to form a functional mechanical assembly.",
+          "timestamps": [
+            "00:06.40",
+            "00:06.60",
+            "00:06.80",
+            "00:07.00",
+            "00:07.20",
+            "00:07.40",
+            "00:07.60",
+            "00:07.80"
+          ]
+        },
+        {
+          "action": "removing green gear",
+          "score": 90,
+          "keywords": [
+            "green gear",
+            "detaching",
+            "placing down"
+          ],
+          "evidence": "The person detaches a green gear from the model and places it on the table.",
+          "timestamps": [
+            "00:01.40",
+            "00:02.00"
+          ]
+        },
+        {
+          "action": "removing red gear",
+          "score": 90,
+          "keywords": [
+            "red gear",
+            "detaching",
+            "placing down"
+          ],
+          "evidence": "The person detaches a red gear from the model and places it on the table.",
+          "timestamps": [
+            "00:03.00",
+            "00:03.60",
+            "00:04.20"
+          ]
+        },
+        {
+          "action": "removing yellow gear",
+          "score": 85,
+          "keywords": [
+            "yellow gear",
+            "detaching",
+            "placing down"
+          ],
+          "evidence": "The person detaches a yellow gear from the model and places it on the table.",
+          "timestamps": [
+            "00:04.80",
+            "00:05.40"
+          ]
+        },
+        {
+          "action": "picking up red gear",
+          "score": 90,
+          "keywords": [
+            "red gear",
+            "lifting",
+            "grabbing"
+          ],
+          "evidence": "In frame 7, the person lifts the large red gear with their right hand, separating it from the rest of the components.",
+          "timestamps": [
+            "00:07.80"
+          ]
+        },
+        {
+          "action": "holding white T-piece",
+          "score": 85,
+          "keywords": [
+            "white piece",
+            "T-shaped",
+            "holding"
+          ],
+          "evidence": "In frame 7, the person is holding a white T-shaped structural piece in their left hand, preparing to integrate it into the assembly.",
+          "timestamps": [
+            "00:07.80"
+          ]
+        },
+        {
+          "action": "manipulating gray cylinder",
+          "score": 80,
+          "keywords": [
+            "gray part",
+            "cylindrical",
+            "rotating",
+            "adjusting"
+          ],
+          "evidence": "In frames 5 and 6, the person rotates and adjusts the gray cylindrical part, likely preparing it for connection to other components.",
+          "timestamps": [
+            "00:07.40",
+            "00:07.60"
+          ]
+        }
+      ]
+    }
+  }
+}

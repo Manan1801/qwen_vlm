@@ -1,0 +1,97 @@
+video_name,timestamp,action_code,mode,score,evidence,keywords
+manan_assemble_front_10_25,00:02.80,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:03.00,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:03.20,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:03.40,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:03.60,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:03.80,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:04.00,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:04.20,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:04.40,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:04.60,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:04.80,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:05.00,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:05.20,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:05.40,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:05.60,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:05.80,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,00:06.00,Meshing gears - correct,fixed,100,"The person connects gears in a way that allows them to rotate together, indicating correct meshing.",meshing; gears; correct
+manan_assemble_front_10_25,,Meshing gears - incorrect,fixed,0,,
+manan_assemble_front_10_25,,Stopper magnet - correct,fixed,0,,
+manan_assemble_front_10_25,,Stopper magnet - incorrect,fixed,0,,
+manan_assemble_front_10_25,,Axle and gear magnets - correct,fixed,0,,
+manan_assemble_front_10_25,,Axle and gear magnets - incorrect,fixed,0,,
+manan_assemble_front_10_25,,Grey plate and red gear - correct,fixed,0,,
+manan_assemble_front_10_25,,Grey plate and red gear - incorrect,fixed,0,,
+manan_assemble_front_10_25,00:12.80,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:13.00,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:13.20,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:13.40,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:13.60,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:13.80,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:14.00,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:14.20,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:14.40,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:14.60,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,00:14.80,"Look at the components - includes rotations, looking, search",fixed,80,"The person frequently looks at the components in their hands and the assembled parts, rotating them to inspect their fit and function.",
+manan_assemble_front_10_25,,mount - correct,fixed,0,,
+manan_assemble_front_10_25,,mount - incorrect,fixed,0,,
+manan_assemble_front_10_25,,pairing - correct combo,fixed,0,,
+manan_assemble_front_10_25,,pairing - incorrect combo,fixed,0,,
+manan_assemble_front_10_25,,Orientation of the part - correct,fixed,0,,
+manan_assemble_front_10_25,,Orientation of the part - incorrect,fixed,0,,
+manan_assemble_front_10_25,00:13.60,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,00:13.80,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,00:14.00,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,00:14.20,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,00:14.40,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,00:14.60,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,00:14.80,disassembling,fixed,70,"The person is actively removing and separating components of the gear assembly, particularly the red gear from its mount, across multiple frames.",
+manan_assemble_front_10_25,,Correct pair & orientation,fixed,0,,
+manan_assemble_front_10_25,,Incorrect pair & correct orientation,fixed,0,,
+manan_assemble_front_10_25,,Correct pair & incorrect orientation,fixed,0,,
+manan_assemble_front_10_25,,Incorrect pair & orientation,fixed,0,,
+manan_assemble_front_10_25,00:13.60,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:13.80,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:14.00,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:14.20,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:14.40,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:14.60,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:14.80,orienting,fixed,80,"The person carefully adjusts the position and alignment of the red gear and other parts, ensuring they fit correctly into the assembly.",
+manan_assemble_front_10_25,00:06.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:06.60,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:06.80,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:07.00,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:07.20,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:07.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:07.60,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:07.80,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:08.00,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:08.20,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:08.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:08.60,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:08.80,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:09.00,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:09.20,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:09.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:09.60,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:09.80,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:10.00,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:10.20,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:10.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:10.60,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:10.80,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:11.00,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:11.20,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:11.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:11.60,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:11.80,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:12.00,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:12.20,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:12.40,testing - includes turning gears,fixed,90,"The person repeatedly rotates the red gear and other components, testing their interaction and fit within the assembly.",turning gears; testing; rotating
+manan_assemble_front_10_25,00:13.80,rotating,fixed,60,"The person rotates the red gear and other components, likely to test their interaction and movement within the assembly.",
+manan_assemble_front_10_25,00:14.00,rotating,fixed,60,"The person rotates the red gear and other components, likely to test their interaction and movement within the assembly.",
+manan_assemble_front_10_25,00:14.20,rotating,fixed,60,"The person rotates the red gear and other components, likely to test their interaction and movement within the assembly.",
+manan_assemble_front_10_25,00:14.40,rotating,fixed,60,"The person rotates the red gear and other components, likely to test their interaction and movement within the assembly.",
+manan_assemble_front_10_25,00:14.60,rotating,fixed,60,"The person rotates the red gear and other components, likely to test their interaction and movement within the assembly.",
+manan_assemble_front_10_25,00:14.80,rotating,fixed,60,"The person rotates the red gear and other components, likely to test their interaction and movement within the assembly.",

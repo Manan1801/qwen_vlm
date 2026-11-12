@@ -12,6 +12,25 @@ import cv2
 import torch
 torch.backends.cudnn.enabled = False
 
+try:
+    import types
+    import triton.runtime.autotuner as triton_autotuner
+    import triton.runtime.jit as triton_jit
+    import triton.runtime.cache as triton_cache
+    import triton.compiler.compiler as triton_compiler
+
+    if not hasattr(triton_autotuner, "JITFunction") and hasattr(triton_jit, "JITFunction"):
+        triton_autotuner.JITFunction = triton_jit.JITFunction
+    if not hasattr(triton_autotuner, "get_cache_invalidating_env_vars"):
+        triton_autotuner.get_cache_invalidating_env_vars = triton_compiler.get_cache_invalidating_env_vars
+    if not hasattr(triton_autotuner, "get_cache_manager"):
+        triton_autotuner.get_cache_manager = triton_cache.get_cache_manager
+    if not hasattr(triton_autotuner, "triton_key"):
+        triton_autotuner.triton_key = triton_compiler.triton_key
+    if not hasattr(triton_autotuner, "knobs"):
+        triton_autotuner.knobs = types.SimpleNamespace(autotuning=types.SimpleNamespace(print=False))
+except Exception:
+    pass
 
 from PIL import Image
 from transformers import (
@@ -20,7 +39,10 @@ from transformers import (
 )
 
 
-MODEL_NAME = "Qwen/Qwen3-VL-8B-Instruct-FP8"
+MODEL_NAME = os.environ.get(
+    "QWEN_MODEL_NAME",
+    "Qwen/Qwen3-VL-30B-A3B-Instruct-FP8",
+)
 
 VIDEO_FOLDER = Path("videos")
 OUTPUT_FOLDER = Path("resultsNew")
@@ -205,8 +227,9 @@ CHUNK_SIZE = 8
 MAX_IMAGE_SIZE = 640
 MAX_NEW_TOKENS = 500
 MAX_NEW_TOKENS_MERGE = 4096
-GPU_MEMORY_GIB = 6
-CPU_MEMORY_GIB = 24
+GPU_MEMORY_GIB = 20
+CPU_MEMORY_GIB = 48
+
 
 
 def extract_frames(
@@ -259,6 +282,21 @@ def extract_frames(
     return frames, timestamps, fps
 
 
+def infer_model_device_label(model):
+    """Return a user-friendly device label even when hf_device_map is absent."""
+    if hasattr(model, "hf_device_map"):
+        return model.hf_device_map
+
+    try:
+        first_param = next(model.parameters())
+        device = first_param.device
+        if device.type == "cuda":
+            return {"model": f"cuda:{device.index}" if device.index is not None else "cuda"}
+        return {"model": str(device)}
+    except StopIteration:
+        return {"model": "unknown"}
+
+
 def load_model():
 
     print("\nLoading processor...")
@@ -266,33 +304,39 @@ def load_model():
 
     print("Loading model...")
 
-    if not torch.cuda.is_available():
-        raise RuntimeError(
-            "CUDA is not available. Check your PyTorch/NVIDIA installation."
+    if torch.cuda.is_available():
+        max_memory = {
+            0: f"{GPU_MEMORY_GIB}GiB",
+            "cpu": f"{CPU_MEMORY_GIB}GiB",
+        }
+
+        print("\nMemory configuration:")
+        print(f"GPU:  {GPU_MEMORY_GIB} GiB")
+        print(f"CPU:  {CPU_MEMORY_GIB} GiB")
+
+        model = AutoModelForMultimodalLM.from_pretrained(
+            MODEL_NAME,
+            torch_dtype="auto",
+            device_map="auto",
+            max_memory=max_memory,
+            low_cpu_mem_usage=True,
         )
-
-    max_memory = {
-        0: f"{GPU_MEMORY_GIB}GiB",
-        "cpu": f"{CPU_MEMORY_GIB}GiB",
-    }
-
-    print("\nMemory configuration:")
-    print(f"GPU:  {GPU_MEMORY_GIB} GiB")
-    print(f"CPU:  {CPU_MEMORY_GIB} GiB")
-
-    model = AutoModelForMultimodalLM.from_pretrained(
-        MODEL_NAME,
-        torch_dtype="auto",
-        device_map="auto",
-        max_memory=max_memory,
-        low_cpu_mem_usage=True,
-    )
+        device_label = infer_model_device_label(model)
+    else:
+        print("CUDA is not available; falling back to CPU execution.")
+        model = AutoModelForMultimodalLM.from_pretrained(
+            MODEL_NAME,
+            torch_dtype="auto",
+            low_cpu_mem_usage=True,
+        )
+        model = model.to(torch.device("cpu"))
+        device_label = {"model": "cpu"}
 
     model.eval()
 
     print("\nModel loaded.")
     print("\nDevice map:")
-    print(model.hf_device_map)
+    print(device_label)
 
     return processor, model
 

@@ -1,0 +1,501 @@
+{
+  "model": "Qwen/Qwen3-VL-8B-Instruct-FP8",
+  "video": "manan_assemble_top_10_25",
+  "mode": "generated",
+  "chunks": [
+    {
+      "chunk_number": 1,
+      "start_time": "00:00.00",
+      "end_time": "00:04.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a mechanical gear system on a black surface. They methodically attach various colored gears and connectors to a central white baseplate, adjusting their positions and connections. The process involves careful manipulation of small components, indicating a precise construction or demonstration of a gear mechanism.\",\n    \"action_matches\": [\n        {\n            \"action\": \"attaching green gear\",\n            \"score\": 95,\n            \"keywords\": [\"green gear\", \"connecting\", \"white base\"],\n            \"evidence\": \"The person's hand is seen placing and securing a green gear onto the white baseplate, aligning it with the central axis.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"adjusting yellow gear\",\n            \"score\": 85,\n            \"keywords\": [\"yellow gear\", \"positioning\", \"manual adjustment\"],\n            \"evidence\": \"The person's fingers are seen rotating and repositioning a yellow gear near the central assembly, likely to ensure proper meshing.\",\n            \"frame_indices\": [6, 7]\n        },\n        {\n            \"action\": \"handling gray connector\",\n            \"score\": 75,\n            \"keywords\": [\"gray connector\", \"manipulating\", \"gear assembly\"],\n            \"evidence\": \"The person picks up and moves a gray connector piece, suggesting it will be integrated into the gear system.\",\n            \"frame_indices\": [6, 7]\n        },\n        {\n            \"action\": \"securing wooden gear\",\n            \"score\": 80,\n            \"keywords\": [\"wooden gear\", \"baseplate\", \"fixing\"],\n            \"evidence\": \"The person holds a small wooden gear and presses it onto the baseplate, indicating it is being secured in place.\",\n            \"frame_indices\": [6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a mechanical gear system on a black surface. They methodically attach various colored gears and connectors to a central white baseplate, adjusting their positions and connections. The process involves careful manipulation of small components, indicating a precise construction or demonstration of a gear mechanism.",
+        "action_matches": [
+          {
+            "action": "attaching green gear",
+            "score": 95,
+            "keywords": [
+              "green gear",
+              "connecting",
+              "white base"
+            ],
+            "evidence": "The person's hand is seen placing and securing a green gear onto the white baseplate, aligning it with the central axis.",
+            "timestamps": [
+              "00:00.00",
+              "00:00.50",
+              "00:01.00",
+              "00:01.50",
+              "00:02.00",
+              "00:02.50",
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "adjusting yellow gear",
+            "score": 85,
+            "keywords": [
+              "yellow gear",
+              "positioning",
+              "manual adjustment"
+            ],
+            "evidence": "The person's fingers are seen rotating and repositioning a yellow gear near the central assembly, likely to ensure proper meshing.",
+            "timestamps": [
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "handling gray connector",
+            "score": 75,
+            "keywords": [
+              "gray connector",
+              "manipulating",
+              "gear assembly"
+            ],
+            "evidence": "The person picks up and moves a gray connector piece, suggesting it will be integrated into the gear system.",
+            "timestamps": [
+              "00:03.00",
+              "00:03.50"
+            ]
+          },
+          {
+            "action": "securing wooden gear",
+            "score": 80,
+            "keywords": [
+              "wooden gear",
+              "baseplate",
+              "fixing"
+            ],
+            "evidence": "The person holds a small wooden gear and presses it onto the baseplate, indicating it is being secured in place.",
+            "timestamps": [
+              "00:03.00",
+              "00:03.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 2,
+      "start_time": "00:04.00",
+      "end_time": "00:08.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a small mechanical device on a black surface. They use both hands to manipulate various colored gears and components, including a prominent red gear, connecting them together. The person's movements are deliberate and focused, indicating careful construction or troubleshooting of the mechanism.\",\n    \"action_matches\": [\n        {\n            \"action\": \"attaching red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"connecting\", \"hands\"],\n            \"evidence\": \"The person uses both hands to carefully connect the red gear to the central mechanical assembly, rotating it into place.\",\n            \"frame_indices\": [2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"adjusting gear alignment\",\n            \"score\": 90,\n            \"keywords\": [\"aligning\", \"gears\", \"fine-tuning\"],\n            \"evidence\": \"The person's fingers make small, precise movements to ensure the red gear meshes correctly with the other components.\",\n            \"frame_indices\": [3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"manipulating mechanical assembly\",\n            \"score\": 95,\n            \"keywords\": [\"hands\", \"assembly\", \"rotating\"],\n            \"evidence\": \"Both hands are actively rotating and positioning the entire mechanical assembly to test or secure the gear connection.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a small mechanical device on a black surface. They use both hands to manipulate various colored gears and components, including a prominent red gear, connecting them together. The person's movements are deliberate and focused, indicating careful construction or troubleshooting of the mechanism.",
+        "action_matches": [
+          {
+            "action": "attaching red gear",
+            "score": 95,
+            "keywords": [
+              "red gear",
+              "connecting",
+              "hands"
+            ],
+            "evidence": "The person uses both hands to carefully connect the red gear to the central mechanical assembly, rotating it into place.",
+            "timestamps": [
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "adjusting gear alignment",
+            "score": 90,
+            "keywords": [
+              "aligning",
+              "gears",
+              "fine-tuning"
+            ],
+            "evidence": "The person's fingers make small, precise movements to ensure the red gear meshes correctly with the other components.",
+            "timestamps": [
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          },
+          {
+            "action": "manipulating mechanical assembly",
+            "score": 95,
+            "keywords": [
+              "hands",
+              "assembly",
+              "rotating"
+            ],
+            "evidence": "Both hands are actively rotating and positioning the entire mechanical assembly to test or secure the gear connection.",
+            "timestamps": [
+              "00:04.00",
+              "00:04.50",
+              "00:05.00",
+              "00:05.50",
+              "00:06.00",
+              "00:06.50",
+              "00:07.00",
+              "00:07.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 3,
+      "start_time": "00:08.00",
+      "end_time": "00:12.00",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling a small mechanical device on a black surface, using colorful plastic gears and a red component. They carefully position and connect the parts, adjusting their alignment to ensure proper mechanical interaction. The process involves picking up, rotating, and fitting components together to construct or test a functional gear-based mechanism.\",\n    \"action_matches\": [\n        {\n            \"action\": \"picking up red gear component\",\n            \"score\": 95,\n            \"keywords\": [\"red\", \"gear\", \"component\", \"picked up\"],\n            \"evidence\": \"The person's left hand holds the red gear component throughout the sequence, indicating it was picked up and prepared for assembly.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"aligning gear with mechanism\",\n            \"score\": 90,\n            \"keywords\": [\"aligning\", \"gear\", \"mechanism\", \"positioning\"],\n            \"evidence\": \"The person uses both hands to carefully position the red gear onto the central axle of the assembled mechanism, ensuring correct alignment.\",\n            \"frame_indices\": [3, 4, 5, 6, 7]\n        },\n        {\n            \"action\": \"rotating gear to engage\",\n            \"score\": 85,\n            \"keywords\": [\"rotating\", \"gear\", \"engaging\", \"mechanism\"],\n            \"evidence\": \"The person rotates the red gear by hand, causing it to mesh with the other gears and demonstrate mechanical interaction.\",\n            \"frame_indices\": [4, 5, 6, 7]\n        },\n        {\n            \"action\": \"adjusting gear placement\",\n            \"score\": 80,\n            \"keywords\": [\"adjusting\", \"gear\", \"placement\", \"fine-tuning\"],\n            \"evidence\": \"The person makes small movements to adjust the position of the red gear relative to the other components, ensuring proper fit and function.\",\n            \"frame_indices\": [5, 6, 7]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling a small mechanical device on a black surface, using colorful plastic gears and a red component. They carefully position and connect the parts, adjusting their alignment to ensure proper mechanical interaction. The process involves picking up, rotating, and fitting components together to construct or test a functional gear-based mechanism.",
+        "action_matches": [
+          {
+            "action": "picking up red gear component",
+            "score": 95,
+            "keywords": [
+              "red",
+              "gear",
+              "component",
+              "picked up"
+            ],
+            "evidence": "The person's left hand holds the red gear component throughout the sequence, indicating it was picked up and prepared for assembly.",
+            "timestamps": [
+              "00:08.00",
+              "00:08.50",
+              "00:09.00",
+              "00:09.50",
+              "00:10.00",
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "aligning gear with mechanism",
+            "score": 90,
+            "keywords": [
+              "aligning",
+              "gear",
+              "mechanism",
+              "positioning"
+            ],
+            "evidence": "The person uses both hands to carefully position the red gear onto the central axle of the assembled mechanism, ensuring correct alignment.",
+            "timestamps": [
+              "00:09.50",
+              "00:10.00",
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "rotating gear to engage",
+            "score": 85,
+            "keywords": [
+              "rotating",
+              "gear",
+              "engaging",
+              "mechanism"
+            ],
+            "evidence": "The person rotates the red gear by hand, causing it to mesh with the other gears and demonstrate mechanical interaction.",
+            "timestamps": [
+              "00:10.00",
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          },
+          {
+            "action": "adjusting gear placement",
+            "score": 80,
+            "keywords": [
+              "adjusting",
+              "gear",
+              "placement",
+              "fine-tuning"
+            ],
+            "evidence": "The person makes small movements to adjust the position of the red gear relative to the other components, ensuring proper fit and function.",
+            "timestamps": [
+              "00:10.50",
+              "00:11.00",
+              "00:11.50"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "chunk_number": 4,
+      "start_time": "00:12.00",
+      "end_time": "00:14.60",
+      "raw_response": "{\n    \"descriptor\": \"A person is assembling or adjusting a small mechanical model on a black surface. Their hands manipulate a red wheel component, connecting it to a central gear assembly. Several loose gears lie nearby, suggesting an ongoing construction or testing process. The person's movements are deliberate and focused on fitting the parts together.\",\n    \"action_matches\": [\n        {\n            \"action\": \"attaching wheel to gear assembly\",\n            \"score\": 95,\n            \"keywords\": [\"red wheel\", \"gear assembly\", \"hands\", \"connecting\"],\n            \"evidence\": \"The person's hands are consistently shown aligning and pressing the red wheel onto the central gear structure across all frames.\",\n            \"frame_indices\": [0, 1, 2, 3, 4, 5]\n        },\n        {\n            \"action\": \"adjusting gear position\",\n            \"score\": 85,\n            \"keywords\": [\"green gear\", \"hand movement\", \"repositioning\"],\n            \"evidence\": \"In frame 5, the person's right hand moves toward a green gear, suggesting an adjustment or repositioning action.\",\n            \"frame_indices\": [5]\n        }\n    ]\n}",
+      "parsed_response": {
+        "descriptor": "A person is assembling or adjusting a small mechanical model on a black surface. Their hands manipulate a red wheel component, connecting it to a central gear assembly. Several loose gears lie nearby, suggesting an ongoing construction or testing process. The person's movements are deliberate and focused on fitting the parts together.",
+        "action_matches": [
+          {
+            "action": "attaching wheel to gear assembly",
+            "score": 95,
+            "keywords": [
+              "red wheel",
+              "gear assembly",
+              "hands",
+              "connecting"
+            ],
+            "evidence": "The person's hands are consistently shown aligning and pressing the red wheel onto the central gear structure across all frames.",
+            "timestamps": [
+              "00:12.00",
+              "00:12.50",
+              "00:13.00",
+              "00:13.50",
+              "00:14.00",
+              "00:14.50"
+            ]
+          },
+          {
+            "action": "adjusting gear position",
+            "score": 85,
+            "keywords": [
+              "green gear",
+              "hand movement",
+              "repositioning"
+            ],
+            "evidence": "In frame 5, the person's right hand moves toward a green gear, suggesting an adjustment or repositioning action.",
+            "timestamps": [
+              "00:14.50"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "merge": {
+    "raw_response": "{\n    \"descriptor\": \"A person methodically assembles a colorful mechanical gear system on a black surface, beginning with attaching a green gear to a central white baseplate and progressively integrating various components including a wooden gear, a gray connector, and a prominent red gear. They carefully adjust and align each piece to ensure proper meshing and functionality, using both hands to rotate, position, and secure parts. The assembly evolves from a basic structure into a more complex mechanism, culminating in the attachment of a red wheel component to the central gear assembly. Throughout, the person’s movements are deliberate and focused, indicating a precise construction or demonstration of a functional gear-based model, with loose gears nearby suggesting an ongoing or iterative process.\",\n    \"action_matches\": [\n        {\n            \"action\": \"attaching green gear\",\n            \"score\": 95,\n            \"keywords\": [\"green gear\", \"connecting\", \"white base\"],\n            \"evidence\": \"The person's hand is seen placing and securing a green gear onto the white baseplate, aligning it with the central axis.\",\n            \"timestamps\": [\"00:00.00\", \"00:00.50\", \"00:01.00\", \"00:01.50\", \"00:02.00\", \"00:02.50\", \"00:03.00\", \"00:03.50\"]\n        },\n        {\n            \"action\": \"adjusting yellow gear\",\n            \"score\": 85,\n            \"keywords\": [\"yellow gear\", \"positioning\", \"manual adjustment\"],\n            \"evidence\": \"The person's fingers are seen rotating and repositioning a yellow gear near the central assembly, likely to ensure proper meshing.\",\n            \"timestamps\": [\"00:03.00\", \"00:03.50\"]\n        },\n        {\n            \"action\": \"handling gray connector\",\n            \"score\": 75,\n            \"keywords\": [\"gray connector\", \"manipulating\", \"gear assembly\"],\n            \"evidence\": \"The person picks up and moves a gray connector piece, suggesting it will be integrated into the gear system.\",\n            \"timestamps\": [\"00:03.00\", \"00:03.50\"]\n        },\n        {\n            \"action\": \"securing wooden gear\",\n            \"score\": 80,\n            \"keywords\": [\"wooden gear\", \"baseplate\", \"fixing\"],\n            \"evidence\": \"The person holds a small wooden gear and presses it onto the baseplate, indicating it is being secured in place.\",\n            \"timestamps\": [\"00:03.00\", \"00:03.50\"]\n        },\n        {\n            \"action\": \"attaching red gear\",\n            \"score\": 95,\n            \"keywords\": [\"red gear\", \"connecting\", \"hands\"],\n            \"evidence\": \"The person uses both hands to carefully connect the red gear to the central mechanical assembly, rotating it into place.\",\n            \"timestamps\": [\"00:05.00\", \"00:05.50\", \"00:06.00\", \"00:06.50\", \"00:07.00\", \"00:07.50\"]\n        },\n        {\n            \"action\": \"adjusting gear alignment\",\n            \"score\": 90,\n            \"keywords\": [\"aligning\", \"gears\", \"fine-tuning\"],\n            \"evidence\": \"The person's fingers make small, precise movements to ensure the red gear meshes correctly with the other components.\",\n            \"timestamps\": [\"00:05.50\", \"00:06.00\", \"00:06.50\", \"00:07.00\", \"00:07.50\"]\n        },\n        {\n            \"action\": \"manipulating mechanical assembly\",\n            \"score\": 95,\n            \"keywords\": [\"hands\", \"assembly\", \"rotating\"],\n            \"evidence\": \"Both hands are actively rotating and positioning the entire mechanical assembly to test or secure the gear connection.\",\n            \"timestamps\": [\"00:04.00\", \"00:04.50\", \"00:05.00\", \"00:05.50\", \"00:06.00\", \"00:06.50\", \"00:07.00\", \"00:07.50\"]\n        },\n        {\n            \"action\": \"picking up red gear component\",\n            \"score\": 95,\n            \"keywords\": [\"red\", \"gear\", \"component\", \"picked up\"],\n            \"evidence\": \"The person's left hand holds the red gear component throughout the sequence, indicating it was picked up and prepared for assembly.\",\n            \"timestamps\": [\"00:08.00\", \"00:08.50\", \"00:09.00\", \"00:09.50\", \"00:10.00\", \"00:10.50\", \"00:11.00\", \"00:11.50\"]\n        },\n        {\n            \"action\": \"aligning gear with mechanism\",\n            \"score\": 90,\n            \"keywords\": [\"aligning\", \"gear\", \"mechanism\", \"positioning\"],\n            \"evidence\": \"The person uses both hands to carefully position the red gear onto the central axle of the assembled mechanism, ensuring correct alignment.\",\n            \"timestamps\": [\"00:09.50\", \"00:10.00\", \"00:10.50\", \"00:11.00\", \"00:11.50\"]\n        },\n        {\n            \"action\": \"rotating gear to engage\",\n            \"score\": 85,\n            \"keywords\": [\"rotating\", \"gear\", \"engaging\", \"mechanism\"],\n            \"evidence\": \"The person rotates the red gear by hand, causing it to mesh with the other gears and demonstrate mechanical interaction.\",\n            \"timestamps\": [\"00:10.00\", \"00:10.50\", \"00:11.00\", \"00:11.50\"]\n        },\n        {\n            \"action\": \"adjusting gear placement\",\n            \"score\": 80,\n            \"keywords\": [\"adjusting\", \"gear\", \"placement\", \"fine-tuning\"],\n            \"evidence\": \"The person makes small movements to adjust the position of the red gear relative to the other components, ensuring proper fit and function.\",\n            \"timestamps\": [\"00:10.50\", \"00:11.00\", \"00:11.50\"]\n        },\n        {\n            \"action\": \"attaching wheel to gear assembly\",\n            \"score\": 95,\n            \"keywords\": [\"red wheel\", \"gear assembly\", \"hands\", \"connecting\"],\n            \"evidence\": \"The person's hands are consistently shown aligning and pressing the red wheel onto the central gear structure across all frames.\",\n            \"timestamps\": [\"00:12.00\", \"00:12.50\", \"00:13.00\", \"00:13.50\", \"00:14.00\", \"00:14.50\"]\n        },\n        {\n            \"action\": \"adjusting gear position\",\n            \"score\": 85,\n            \"keywords\": [\"green gear\", \"hand movement\", \"repositioning\"],\n            \"evidence\": \"In frame 5, the person's right hand moves toward a green gear, suggesting an adjustment or repositioning action.\",\n            \"timestamps\": [\"00:14.50\"]\n        }\n    ]\n}",
+    "parsed_response": {
+      "descriptor": "A person methodically assembles a colorful mechanical gear system on a black surface, beginning with attaching a green gear to a central white baseplate and progressively integrating various components including a wooden gear, a gray connector, and a prominent red gear. They carefully adjust and align each piece to ensure proper meshing and functionality, using both hands to rotate, position, and secure parts. The assembly evolves from a basic structure into a more complex mechanism, culminating in the attachment of a red wheel component to the central gear assembly. Throughout, the person’s movements are deliberate and focused, indicating a precise construction or demonstration of a functional gear-based model, with loose gears nearby suggesting an ongoing or iterative process.",
+      "action_matches": [
+        {
+          "action": "attaching green gear",
+          "score": 95,
+          "keywords": [
+            "green gear",
+            "connecting",
+            "white base"
+          ],
+          "evidence": "The person's hand is seen placing and securing a green gear onto the white baseplate, aligning it with the central axis.",
+          "timestamps": [
+            "00:00.00",
+            "00:00.50",
+            "00:01.00",
+            "00:01.50",
+            "00:02.00",
+            "00:02.50",
+            "00:03.00",
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "adjusting yellow gear",
+          "score": 85,
+          "keywords": [
+            "yellow gear",
+            "positioning",
+            "manual adjustment"
+          ],
+          "evidence": "The person's fingers are seen rotating and repositioning a yellow gear near the central assembly, likely to ensure proper meshing.",
+          "timestamps": [
+            "00:03.00",
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "handling gray connector",
+          "score": 75,
+          "keywords": [
+            "gray connector",
+            "manipulating",
+            "gear assembly"
+          ],
+          "evidence": "The person picks up and moves a gray connector piece, suggesting it will be integrated into the gear system.",
+          "timestamps": [
+            "00:03.00",
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "securing wooden gear",
+          "score": 80,
+          "keywords": [
+            "wooden gear",
+            "baseplate",
+            "fixing"
+          ],
+          "evidence": "The person holds a small wooden gear and presses it onto the baseplate, indicating it is being secured in place.",
+          "timestamps": [
+            "00:03.00",
+            "00:03.50"
+          ]
+        },
+        {
+          "action": "attaching red gear",
+          "score": 95,
+          "keywords": [
+            "red gear",
+            "connecting",
+            "hands"
+          ],
+          "evidence": "The person uses both hands to carefully connect the red gear to the central mechanical assembly, rotating it into place.",
+          "timestamps": [
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "adjusting gear alignment",
+          "score": 90,
+          "keywords": [
+            "aligning",
+            "gears",
+            "fine-tuning"
+          ],
+          "evidence": "The person's fingers make small, precise movements to ensure the red gear meshes correctly with the other components.",
+          "timestamps": [
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "manipulating mechanical assembly",
+          "score": 95,
+          "keywords": [
+            "hands",
+            "assembly",
+            "rotating"
+          ],
+          "evidence": "Both hands are actively rotating and positioning the entire mechanical assembly to test or secure the gear connection.",
+          "timestamps": [
+            "00:04.00",
+            "00:04.50",
+            "00:05.00",
+            "00:05.50",
+            "00:06.00",
+            "00:06.50",
+            "00:07.00",
+            "00:07.50"
+          ]
+        },
+        {
+          "action": "picking up red gear component",
+          "score": 95,
+          "keywords": [
+            "red",
+            "gear",
+            "component",
+            "picked up"
+          ],
+          "evidence": "The person's left hand holds the red gear component throughout the sequence, indicating it was picked up and prepared for assembly.",
+          "timestamps": [
+            "00:08.00",
+            "00:08.50",
+            "00:09.00",
+            "00:09.50",
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50"
+          ]
+        },
+        {
+          "action": "aligning gear with mechanism",
+          "score": 90,
+          "keywords": [
+            "aligning",
+            "gear",
+            "mechanism",
+            "positioning"
+          ],
+          "evidence": "The person uses both hands to carefully position the red gear onto the central axle of the assembled mechanism, ensuring correct alignment.",
+          "timestamps": [
+            "00:09.50",
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50"
+          ]
+        },
+        {
+          "action": "rotating gear to engage",
+          "score": 85,
+          "keywords": [
+            "rotating",
+            "gear",
+            "engaging",
+            "mechanism"
+          ],
+          "evidence": "The person rotates the red gear by hand, causing it to mesh with the other gears and demonstrate mechanical interaction.",
+          "timestamps": [
+            "00:10.00",
+            "00:10.50",
+            "00:11.00",
+            "00:11.50"
+          ]
+        },
+        {
+          "action": "adjusting gear placement",
+          "score": 80,
+          "keywords": [
+            "adjusting",
+            "gear",
+            "placement",
+            "fine-tuning"
+          ],
+          "evidence": "The person makes small movements to adjust the position of the red gear relative to the other components, ensuring proper fit and function.",
+          "timestamps": [
+            "00:10.50",
+            "00:11.00",
+            "00:11.50"
+          ]
+        },
+        {
+          "action": "attaching wheel to gear assembly",
+          "score": 95,
+          "keywords": [
+            "red wheel",
+            "gear assembly",
+            "hands",
+            "connecting"
+          ],
+          "evidence": "The person's hands are consistently shown aligning and pressing the red wheel onto the central gear structure across all frames.",
+          "timestamps": [
+            "00:12.00",
+            "00:12.50",
+            "00:13.00",
+            "00:13.50",
+            "00:14.00",
+            "00:14.50"
+          ]
+        },
+        {
+          "action": "adjusting gear position",
+          "score": 85,
+          "keywords": [
+            "green gear",
+            "hand movement",
+            "repositioning"
+          ],
+          "evidence": "In frame 5, the person's right hand moves toward a green gear, suggesting an adjustment or repositioning action.",
+          "timestamps": [
+            "00:14.50"
+          ]
+        }
+      ]
+    }
+  }
+}
